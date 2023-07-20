@@ -26,11 +26,6 @@ header_nav = [
     { name = "#links", url = "/tags" },
 ]
 
-footer_nav = [
-    { name = "< previous", url = "#" },
-    { name = "webring", url = "#" },
-    { name = "next >", url = "#" },
-]
 
 add_toc = true
 
