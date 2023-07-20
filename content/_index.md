@@ -17,5 +17,5 @@ _Magnolia Electric Co, an album whose cover i really like_
 <span class="social-media-container">
 <a target="_blank" href="https://www.instagram.com/z_.512_/" class="social-media-instagram"><img src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-new-logo-vector-download-13.png" width="25" height= "25"/></a>
 
-<a target="_blank" href="/" class="social-media-github"><img src="https://www.freepnglogos.com/uploads/512x512-logo/512x512-transparent-logo-github-logo-24.png" width="30" height="30" /></a>
+<a target="_blank" href="https://github.com/Akshat-512" class="social-media-github"><img src="https://www.freepnglogos.com/uploads/512x512-logo/512x512-transparent-logo-github-logo-24.png" width="30" height="30" /></a>
 </span>
