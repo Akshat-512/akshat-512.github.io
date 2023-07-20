@@ -1,5 +1,7 @@
 +++
 title = "Literature"
+sort_by= "title"
+
 +++
 
 - [The Stranger - Albert Camus](./books/blogs/the-stranger)

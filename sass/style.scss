@@ -104,4 +104,20 @@ img {
   }
 }
 
+.social-media-instagram{
+ display: flex;
+ margin-top: 20px;
+}
+
+.social-media-github{
+  display: flex;
+}
+
+.social-media-container {
+  margin-top: -20px;
+  margin-left: 300px;
+  flex-direction: row;
+  display: flex;
+}
+
 nav, .taxonomies { text-align: center; }
