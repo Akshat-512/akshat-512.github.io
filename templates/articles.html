@@ -19,17 +19,17 @@
             </div>
             <div class="article-row-main">
               <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
-              {% if page.summary %}
-                <p>{{ page.summary | safe }}</p>
-              {% else %}
-                <p>{{ page.content | striptags | truncate(length=200) }}</p>
-              {% endif %}
               {% if page.taxonomies.tags %}
                 <div class="tag-row">
                   {% for tag in page.taxonomies.tags %}
                     <a class="tag" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag }}</a>
                   {% endfor %}
                 </div>
+              {% endif %}
+              {% if page.summary %}
+                <p>{{ page.summary | safe }}</p>
+              {% else %}
+                <p>{{ page.content | striptags | truncate(length=200) }}</p>
               {% endif %}
             </div>
           </article>

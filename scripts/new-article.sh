@@ -73,6 +73,7 @@ cat > "$file" <<EOT
 title = "$title"
 date = $date
 draft = false
+[taxonomies]
 tags = []
 +++
 

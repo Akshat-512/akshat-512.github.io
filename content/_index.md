@@ -12,6 +12,7 @@ Start here:
 - [Movies](/movies/)
 - [Music](/music/)
 - [Literature](/books/)
+- [Links & recommendations](/links/)
 
 Find me elsewhere:
 - [RateYourMusic](https://rateyourmusic.com/~Tablefan)

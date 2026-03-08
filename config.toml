@@ -29,7 +29,7 @@ header_nav = [
     { name = "movies", url = "/movies/" },
     { name = "music", url = "/music/" },
     { name = "literature", url = "/books/" },
-    { name = "#links", url = "/tags/" },
+    { name = "#links", url = "/links/" },
 ]
 
 footer_nav = [

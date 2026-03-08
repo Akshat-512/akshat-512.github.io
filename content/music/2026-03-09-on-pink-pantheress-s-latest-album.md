@@ -2,6 +2,7 @@
 title = "On Pink Pantheress's latest mixtape"
 date = 2026-03-09
 draft = false
+[taxonomies]
 tags = ["music", "pop music", "pink pantheress", "british pop music"]
 +++
 
