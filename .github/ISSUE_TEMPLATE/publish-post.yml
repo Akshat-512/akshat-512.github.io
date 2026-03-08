@@ -1,0 +1,35 @@
+name: Publish Post
+description: Create and publish a new post from GitHub (phone friendly)
+title: "Post title here"
+labels: ["publish-post"]
+body:
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      description: Where should this post appear?
+      options:
+        - articles
+        - music
+        - books
+        - movies
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Comma-separated tags (optional)
+      placeholder: "music, pop, review"
+    validations:
+      required: false
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Content
+      description: Write markdown content for the post
+      placeholder: "Write your post in Markdown..."
+    validations:
+      required: true

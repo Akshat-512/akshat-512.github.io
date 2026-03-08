@@ -15,3 +15,10 @@ Examples:
 - `scripts/new-article.sh --section movies "Solaris (1972) Notes"`
 
 Posts are created in `content/<section>/` with a date-prefixed filename.
+
+Publish from phone (no manual git commit):
+1. Open GitHub -> `Issues` -> `New issue` -> choose `Publish Post`.
+2. Fill section, tags, and markdown content.
+3. Submit issue.
+
+Only issues opened by the repository owner are auto-published. The workflow creates the post file, commits it, pushes to `main`, comments with the URL, and closes the issue.

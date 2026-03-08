@@ -1,0 +1,141 @@
+name: Publish From Issue
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  publish:
+    if: contains(github.event.issue.labels.*.name, 'publish-post') && github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create post from issue form
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          set -euo pipefail
+
+          extract_block() {
+            local heading="$1"
+            awk -v key="### ${heading}" '
+              $0 == key { flag=1; next }
+              flag && /^### / { flag=0 }
+              flag { print }
+            ' <<< "$ISSUE_BODY"
+          }
+
+          trim() {
+            sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//'
+          }
+
+          section="$(extract_block "Section" | tr -d '\r' | trim | head -n 1)"
+          tags_raw="$(extract_block "Tags" | tr -d '\r' | trim | head -n 1)"
+          content="$(extract_block "Content" | sed 's/\r$//')"
+
+          if [ -z "${section}" ] || [ -z "${content}" ]; then
+            echo "Missing required section/content in issue form."
+            exit 1
+          fi
+
+          case "$section" in
+            articles|music|books|movies) ;;
+            *) echo "Invalid section: $section"; exit 1 ;;
+          esac
+
+          slug="$(
+            echo "$ISSUE_TITLE" \
+              | tr '[:upper:]' '[:lower:]' \
+              | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$//g'
+          )"
+          if [ -z "$slug" ]; then
+            echo "Invalid issue title for slug."
+            exit 1
+          fi
+
+          date="$(date +%Y-%m-%d)"
+          dir="content/${section}"
+          file="${dir}/${date}-${slug}.md"
+          mkdir -p "$dir"
+
+          if [ -e "$file" ]; then
+            echo "File already exists: $file"
+            exit 1
+          fi
+
+          tags_json="[]"
+          if [ -n "$tags_raw" ]; then
+            tags_json="$(
+              echo "$tags_raw" \
+                | awk -F',' '
+                    BEGIN { printf "["; first=1 }
+                    {
+                      for (i=1; i<=NF; i++) {
+                        gsub(/^[ \t]+|[ \t]+$/, "", $i)
+                        if ($i != "") {
+                          if (!first) printf ", "
+                          gsub(/"/, "\\\"", $i)
+                          printf "\"%s\"", $i
+                          first=0
+                        }
+                      }
+                    }
+                    END { printf "]" }
+                  '
+            )"
+          fi
+
+          safe_title="$(printf '%s' "$ISSUE_TITLE" | sed 's/"/\\"/g')"
+
+          cat > "$file" <<EOF
++++
+title = "$safe_title"
+date = $date
+draft = false
+[taxonomies]
+tags = $tags_json
++++
+
+$content
+EOF
+
+          echo "Created $file"
+          echo "NEW_FILE=$file" >> "$GITHUB_ENV"
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$NEW_FILE"
+          git commit -m "Publish post from issue #${{ github.event.issue.number }}"
+          git push
+
+      - name: Comment and close issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const section = `${{ env.NEW_FILE }}`.split('/')[1];
+            const filename = `${{ env.NEW_FILE }}`.split('/').pop();
+            const slug = filename.replace(/^\d{4}-\d{2}-\d{2}-/, '').replace(/\.md$/, '');
+            const url = `https://akshat-512.github.io/${section}/${slug}/`;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `Published: ${url}`
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: "closed"
+            });
