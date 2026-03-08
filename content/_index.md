@@ -14,7 +14,7 @@ Start here:
 - [Literature](/books/)
 
 Find me elsewhere:
-- [RateYourMusic](http://rateyourmusic.com/~Tablefan)
+- [RateYourMusic](https://rateyourmusic.com/~Tablefan)
 - [Last.fm](https://www.last.fm/user/Z512)
 - [Goodreads](https://www.goodreads.com/user/show/68893351-akshat-singhai)
 - [Letterboxd](https://letterboxd.com/akshat9512/)
