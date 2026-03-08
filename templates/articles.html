@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="panel">
+    <h1>{{ section.title }}</h1>
+    {% if section.content %}
+      <div class="section-intro">{{ section.content | safe }}</div>
+    {% endif %}
+  </section>
+
+  {% if section.pages | length > 0 %}
+    <section class="panel">
+      <div class="article-list">
+        {% for page in section.pages %}
+          <article class="article-row">
+            <div class="article-row-meta">
+              {% if page.date %}<span>{{ page.date | date(format="%Y-%m-%d") }}</span>{% endif %}
+              {% if page.reading_time %}<span>{{ page.reading_time }} min</span>{% endif %}
+            </div>
+            <div class="article-row-main">
+              <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+              {% if page.summary %}
+                <p>{{ page.summary | safe }}</p>
+              {% else %}
+                <p>{{ page.content | striptags | truncate(length=200) }}</p>
+              {% endif %}
+              {% if page.taxonomies.tags %}
+                <div class="tag-row">
+                  {% for tag in page.taxonomies.tags %}
+                    <a class="tag" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag }}</a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+{% endblock %}

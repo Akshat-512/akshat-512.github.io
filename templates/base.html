@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    {% if page %}{{ page.title }} · {{ config.title }}
+    {% elif section and section.title %}{{ section.title }} · {{ config.title }}
+    {% else %}{{ config.title }}{% endif %}
+  </title>
+  {% if page and page.description %}
+    <meta name="description" content="{{ page.description }}">
+  {% elif section and section.description %}
+    <meta name="description" content="{{ section.description }}">
+  {% elif config.description %}
+    <meta name="description" content="{{ config.description }}">
+  {% endif %}
+  <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path="atom.xml") }}">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="brand">
+        <a class="brand-title" href="/">{{ config.title }}</a>
+        {% if config.description %}
+          <p class="brand-subtitle">{{ config.description }}</p>
+        {% endif %}
+      </div>
+      {% if config.extra.header_nav %}
+        <nav class="site-nav">
+          {% for item in config.extra.header_nav %}
+            <a class="nav-link" href="{{ item.url | safe }}" {% if item.new_tab %}target="_blank" rel="noopener"{% endif %}>{{ item.name }}</a>
+          {% endfor %}
+        </nav>
+      {% endif %}
+    </header>
+
+    <main class="site-main">
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+      {% if config.extra.footer_nav %}
+        <nav class="footer-nav">
+          {% for item in config.extra.footer_nav %}
+            <a class="footer-link" href="{{ item.url | safe }}" {% if item.new_tab %}target="_blank" rel="noopener"{% endif %}>{{ item.name }}</a>
+          {% endfor %}
+        </nav>
+      {% endif %}
+      <p class="footer-note">Thanks for reading.</p>
+    </footer>
+  </div>
+</body>
+</html>

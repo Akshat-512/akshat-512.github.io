@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="hero">
+    <div class="hero-copy">
+      {{ section.content | safe }}
+    </div>
+  </section>
+
+  {% set articles = get_section(path="articles/_index.md") %}
+  {% if articles and articles.pages | length > 0 %}
+    <section class="panel">
+      <div class="panel-header">
+        <h2>Latest Articles</h2>
+        <a class="panel-link" href="{{ get_url(path="@/articles/_index.md") }}">View all</a>
+      </div>
+      <div class="article-grid">
+        {% for page in articles.pages | slice(end=5) %}
+          <article class="article-card">
+            <div class="article-meta">
+              {% if page.date %}<span>{{ page.date | date(format="%Y-%m-%d") }}</span>{% endif %}
+              {% if page.reading_time %}<span>{{ page.reading_time }} min</span>{% endif %}
+            </div>
+            <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+            {% if page.summary %}
+              <p>{{ page.summary | safe }}</p>
+            {% else %}
+              <p>{{ page.content | striptags | truncate(length=160) }}</p>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+{% endblock %}

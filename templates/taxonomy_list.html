@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="panel">
+    <h1>{{ taxonomy.name | capitalize }}</h1>
+    <div class="section-intro">Browse by tag.</div>
+  </section>
+
+  <section class="panel">
+    <div class="tag-row">
+      {% for term in terms %}
+        <a class="tag" href="{{ term.permalink }}">#{{ term.name }} ({{ term.pages | length }})</a>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}
