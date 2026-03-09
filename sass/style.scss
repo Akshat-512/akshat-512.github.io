@@ -1,25 +1,25 @@
 :root {
-  --bg: #f6f6f3;
-  --surface: #fffffe;
-  --surface-strong: #fcfbf7;
-  --ink: #1f2622;
-  --muted: #5f665f;
-  --accent: #0b7a58;
-  --accent-soft: #deefe5;
-  --border: #d8ddd8;
-  --shadow: 0 16px 40px rgba(14, 34, 24, 0.08);
+  --bg: #f5f7fb;
+  --surface: #ffffff;
+  --surface-strong: #f8fafc;
+  --ink: #0f172a;
+  --muted: #475569;
+  --accent: #1d4ed8;
+  --accent-soft: #dbeafe;
+  --border: #d5deea;
+  --shadow: 0 16px 36px rgba(15, 23, 42, 0.08);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #101814;
-    --surface: #18221d;
-    --surface-strong: #121b17;
-    --ink: #e9efe9;
-    --muted: #afbab0;
-    --accent: #79caa8;
-    --accent-soft: #224034;
-    --border: #2b3a32;
+    --bg: #0d1117;
+    --surface: #161b22;
+    --surface-strong: #1f2631;
+    --ink: #e6edf3;
+    --muted: #a8b3c2;
+    --accent: #58a6ff;
+    --accent-soft: #1a3556;
+    --border: #30363d;
     --shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
   }
 }
@@ -39,8 +39,8 @@ body {
 body {
   color: var(--ink);
   font-family: "Avenir Next", "IBM Plex Sans", "Segoe UI", "Noto Sans", sans-serif;
-  font-size: 17px;
-  line-height: 1.72;
+  font-size: 18px;
+  line-height: 1.75;
   letter-spacing: 0.01em;
   position: relative;
 }
@@ -82,7 +82,7 @@ a:focus-visible {
 }
 
 .site-shell {
-  max-width: 860px;
+  max-width: 940px;
   margin: 0 auto;
   padding: 3rem 1.4rem 4rem;
 }
@@ -155,15 +155,15 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(1.7rem, 4vw, 2.1rem);
+  font-size: clamp(1.9rem, 4vw, 2.25rem);
 }
 
 h2 {
-  font-size: clamp(1.22rem, 2.7vw, 1.5rem);
+  font-size: clamp(1.3rem, 2.8vw, 1.6rem);
 }
 
 h3 {
-  font-size: clamp(1.05rem, 2.2vw, 1.22rem);
+  font-size: clamp(1.1rem, 2.2vw, 1.28rem);
 }
 
 p {
@@ -186,6 +186,7 @@ p {
 
 .section-intro {
   margin-top: 0.7rem;
+  max-width: 68ch;
 }
 
 .hero {
@@ -276,6 +277,7 @@ p {
 
 .page-content {
   margin-top: 1.5rem;
+  max-width: 68ch;
 }
 
 .page-content > :first-child {
@@ -367,7 +369,7 @@ th {
 
 @media (max-width: 720px) {
   body {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .site-shell {
