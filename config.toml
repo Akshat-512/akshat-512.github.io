@@ -1,6 +1,6 @@
 base_url = "https://akshat-512.github.io/"
-title = "Akshat Singhai"
-description = "Writing about music, films, books, and whatever else pulls focus."
+title = "Thought Diary"
+description = "Here I unload my thoughts about music, films, books, and whatever else catches my attention."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

@@ -8,14 +8,24 @@
   </section>
 
   {% set articles = get_section(path="articles/_index.md") %}
-  {% if articles and articles.pages | length > 0 %}
+  {% set music = get_section(path="music/_index.md") %}
+  {% set books = get_section(path="books/_index.md") %}
+  {% set movies = get_section(path="movies/_index.md") %}
+  {% set combined_posts = articles.pages
+    | concat(with=music.pages)
+    | concat(with=books.pages)
+    | concat(with=movies.pages)
+    | sort(attribute="date")
+    | reverse
+  %}
+  {% if combined_posts | length > 0 %}
     <section class="panel">
       <div class="panel-header">
         <h2>Latest Articles</h2>
-        <a class="panel-link" href="{{ get_url(path="@/articles/_index.md") }}">View all</a>
+        <span class="panel-link">Across all categories</span>
       </div>
       <div class="article-grid">
-        {% for page in articles.pages | slice(end=5) %}
+        {% for page in combined_posts | slice(end=3) %}
           <article class="article-card">
             <div class="article-meta">
               {% if page.date %}<span>{{ page.date | date(format="%Y-%m-%d") }}</span>{% endif %}
