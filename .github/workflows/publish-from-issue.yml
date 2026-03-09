@@ -14,15 +14,14 @@ jobs:
     steps:
       - name: Guard - owner and label check
         id: guard
-        env:
-          ISSUE_USER: ${{ github.event.issue.user.login }}
-          REPO_OWNER: ${{ github.repository_owner }}
-          ISSUE_LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
         run: |
           set -euo pipefail
 
-          issue_user_lc="$(printf '%s' "$ISSUE_USER" | tr '[:upper:]' '[:lower:]')"
-          repo_owner_lc="$(printf '%s' "$REPO_OWNER" | tr '[:upper:]' '[:lower:]')"
+          issue_user="$(jq -r '.issue.user.login // ""' "$GITHUB_EVENT_PATH")"
+          issue_labels="$(jq -r '[.issue.labels[].name] | join(",")' "$GITHUB_EVENT_PATH")"
+
+          issue_user_lc="$(printf '%s' "$issue_user" | tr '[:upper:]' '[:lower:]')"
+          repo_owner_lc="$(printf '%s' "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')"
 
           is_owner="false"
           has_label="false"
@@ -31,7 +30,7 @@ jobs:
             is_owner="true"
           fi
 
-          case ",$ISSUE_LABELS," in
+          case ",$issue_labels," in
             *,publish-post,*) has_label="true" ;;
           esac
 
@@ -41,7 +40,7 @@ jobs:
           fi
 
           echo "should_publish=false" >> "$GITHUB_OUTPUT"
-          echo "Skipping publish: is_owner=$is_owner has_label=$has_label labels=$ISSUE_LABELS"
+          echo "Skipping publish: is_owner=$is_owner has_label=$has_label labels=$issue_labels issue_user=$issue_user repo_owner=${{ github.repository_owner }}"
 
       - name: Checkout
         if: steps.guard.outputs.should_publish == 'true'
