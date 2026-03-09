@@ -145,17 +145,16 @@ jobs:
 
           safe_title="$(printf '%s' "$ISSUE_TITLE" | sed 's/"/\\"/g')"
 
-          cat > "$file" <<EOF
-+++
-title = "$safe_title"
-date = $date
-draft = false
-[taxonomies]
-tags = $tags_json
-+++
-
-$content
-EOF
+          {
+            printf '+++\n'
+            printf 'title = "%s"\n' "$safe_title"
+            printf 'date = %s\n' "$date"
+            printf 'draft = false\n'
+            printf '[taxonomies]\n'
+            printf 'tags = %s\n' "$tags_json"
+            printf '+++\n\n'
+            printf '%s\n' "$content"
+          } > "$file"
 
           echo "Created $file"
           echo "NEW_FILE=$file" >> "$GITHUB_ENV"
