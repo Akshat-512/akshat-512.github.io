@@ -19,34 +19,13 @@
     | reverse
   %}
   {% if combined_posts | length > 0 %}
-    <section class="panel">
-      <div class="panel-header">
-        <h2>Latest Articles</h2>
-        <span class="panel-link">Across all categories</span>
-      </div>
-      <div class="article-grid">
+    <section>
+      <h2>Latest Articles</h2>
+      <ul>
         {% for page in combined_posts | slice(end=3) %}
-          <article class="article-card">
-            <div class="article-meta">
-              {% if page.date %}<span>{{ page.date | date(format="%Y-%m-%d") }}</span>{% endif %}
-              {% if page.reading_time %}<span>{{ page.reading_time }} min</span>{% endif %}
-            </div>
-            <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
-            {% if page.taxonomies.tags %}
-              <div class="tag-row">
-                {% for tag in page.taxonomies.tags %}
-                  <a class="tag" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag }}</a>
-                {% endfor %}
-              </div>
-            {% endif %}
-            {% if page.summary %}
-              <p>{{ page.summary | safe }}</p>
-            {% else %}
-              <p>{{ page.content | striptags | truncate(length=160) }}</p>
-            {% endif %}
-          </article>
+          <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
         {% endfor %}
-      </div>
+      </ul>
     </section>
   {% endif %}
 {% endblock %}
