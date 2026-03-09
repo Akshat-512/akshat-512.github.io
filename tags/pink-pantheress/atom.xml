@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Thought Diary - pink pantheress</title>
+    <subtitle>Here I unload my thoughts about music, films, books, and whatever else catches my attention.</subtitle>
+    <link href="https://akshat-512.github.io/tags/pink-pantheress/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://akshat-512.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-03-09T00:00:00+00:00</updated>
+    <id>https://akshat-512.github.io/tags/pink-pantheress/atom.xml</id>
+    <entry xml:lang="en">
+        <title>On Pink Pantheress&#x27;s latest mixtape</title>
+        <published>2026-03-09T00:00:00+00:00</published>
+        <updated>2026-03-09T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://akshat-512.github.io/music/on-pink-pantheress-s-latest-album/" type="text/html"/>
+        <id>https://akshat-512.github.io/music/on-pink-pantheress-s-latest-album/</id>
+        
+        <content type="html">&lt;p&gt;I recently heard Pink Pantheress&#x27;s most recent mixtape, Fancy That. To say that I am hooked would be an understatement.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
