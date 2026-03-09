@@ -1,26 +1,26 @@
 :root {
-  --bg: #f5f7fb;
-  --surface: #ffffff;
-  --surface-strong: #f8fafc;
-  --ink: #0f172a;
-  --muted: #475569;
-  --accent: #1d4ed8;
-  --accent-soft: #dbeafe;
-  --border: #d5deea;
-  --shadow: 0 16px 36px rgba(15, 23, 42, 0.08);
+  --bg: #f7f5f2;
+  --surface: #fbfaf8;
+  --surface-strong: #ffffff;
+  --ink: #0a0a0a;
+  --muted: #5c5c5c;
+  --accent: #2b6cb0;
+  --accent-soft: #e8edf3;
+  --border: #ddd7cf;
+  --shadow: 0 14px 30px rgba(17, 17, 17, 0.06);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0d1117;
-    --surface: #161b22;
-    --surface-strong: #1f2631;
-    --ink: #e6edf3;
-    --muted: #a8b3c2;
-    --accent: #58a6ff;
-    --accent-soft: #1a3556;
-    --border: #30363d;
-    --shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+    --bg: #f7f5f2;
+    --surface: #fbfaf8;
+    --surface-strong: #ffffff;
+    --ink: #0a0a0a;
+    --muted: #5c5c5c;
+    --accent: #2b6cb0;
+    --accent-soft: #e8edf3;
+    --border: #ddd7cf;
+    --shadow: 0 14px 30px rgba(17, 17, 17, 0.06);
   }
 }
 
@@ -38,7 +38,7 @@ body {
 
 body {
   color: var(--ink);
-  font-family: "Avenir Next", "IBM Plex Sans", "Segoe UI", "Noto Sans", sans-serif;
+  font-family: "Charter", "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
   font-size: 18px;
   line-height: 1.75;
   letter-spacing: 0.01em;
@@ -149,7 +149,7 @@ a:focus-visible {
 h1,
 h2,
 h3 {
-  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+  font-family: "Charter", "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
   letter-spacing: 0.01em;
   line-height: 1.2;
 }

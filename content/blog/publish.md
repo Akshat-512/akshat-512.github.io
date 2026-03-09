@@ -8,8 +8,7 @@ Use this page to open a prefilled GitHub issue. Only posts opened by the reposit
 <div class="publish-panel">
   <form id="publish-form" class="publish-form">
     <label for="post-title">Title</label>
-    <input id="post-title" name="title" type="text" required maxlength="120" placeholder="Post title" />
-
+    <input id="post-title" name="title" type="text" required maxlength="120" placeholder="Post title">
     <label for="post-section">Section</label>
     <select id="post-section" name="section" required>
       <option value="articles">articles</option>
@@ -17,16 +16,12 @@ Use this page to open a prefilled GitHub issue. Only posts opened by the reposit
       <option value="books">books</option>
       <option value="movies">movies</option>
     </select>
-
     <label for="post-tags">Tags (comma-separated, optional)</label>
-    <input id="post-tags" name="tags" type="text" placeholder="music, review" />
-
+    <input id="post-tags" name="tags" type="text" placeholder="music, review">
     <label for="post-content">Content (Markdown)</label>
     <textarea id="post-content" name="content" required rows="12" placeholder="Write your post in Markdown..."></textarea>
-
     <button type="submit">Open GitHub Issue</button>
   </form>
-
   <p class="publish-help">After tapping submit, GitHub will ask you to sign in if needed. Submit the issue there to publish.</p>
 </div>
 
