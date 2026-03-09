@@ -16,9 +16,9 @@ Examples:
 
 Posts are created in `content/<section>/` with a date-prefixed filename.
 
-Publish from phone (no manual git commit):
-1. Open GitHub -> `Issues` -> `New issue` -> choose `Publish Post`.
-2. Fill section, tags, and markdown content.
-3. Submit issue.
+Publish from phone (simple UI):
+1. Open `https://akshat-512.github.io/blog/publish/` from your phone.
+2. Fill title, section, tags, and markdown content.
+3. Tap `Open GitHub Issue`, sign in, and submit.
 
 Only issues opened by the repository owner are auto-published. The workflow creates the post file, commits it, pushes to `main`, comments with the URL, and closes the issue.
