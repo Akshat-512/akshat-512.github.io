@@ -18,29 +18,46 @@ jobs:
           set -euo pipefail
 
           issue_user="$(jq -r '.issue.user.login // ""' "$GITHUB_EVENT_PATH")"
+          author_association="$(jq -r '.issue.author_association // ""' "$GITHUB_EVENT_PATH")"
           issue_labels="$(jq -r '[.issue.labels[].name] | join(",")' "$GITHUB_EVENT_PATH")"
+          issue_body="$(jq -r '.issue.body // ""' "$GITHUB_EVENT_PATH")"
 
           issue_user_lc="$(printf '%s' "$issue_user" | tr '[:upper:]' '[:lower:]')"
           repo_owner_lc="$(printf '%s' "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')"
+          author_association_uc="$(printf '%s' "$author_association" | tr '[:lower:]' '[:upper:]')"
 
           is_owner="false"
+          is_trusted_author="false"
           has_label="false"
+          has_publish_body="false"
 
           if [ "$issue_user_lc" = "$repo_owner_lc" ]; then
             is_owner="true"
           fi
 
+          case "$author_association_uc" in
+            OWNER|MEMBER|COLLABORATOR) is_trusted_author="true" ;;
+          esac
+
           case ",$issue_labels," in
             *,publish-post,*) has_label="true" ;;
           esac
 
-          if [ "$is_owner" = "true" ] && [ "$has_label" = "true" ]; then
+          # Accept issues created from the publish page/form even if label assignment failed.
+          if printf '%s\n' "$issue_body" | grep -q '^### Section$' && \
+             printf '%s\n' "$issue_body" | grep -q '^### Content$'; then
+            has_publish_body="true"
+          fi
+
+          # Allow trusted maintainers/collaborators in addition to strict repo owner.
+          if { [ "$is_owner" = "true" ] || [ "$is_trusted_author" = "true" ]; } && \
+             { [ "$has_label" = "true" ] || [ "$has_publish_body" = "true" ]; }; then
             echo "should_publish=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
           echo "should_publish=false" >> "$GITHUB_OUTPUT"
-          echo "Skipping publish: is_owner=$is_owner has_label=$has_label labels=$issue_labels issue_user=$issue_user repo_owner=${{ github.repository_owner }}"
+          echo "Skipping publish: is_owner=$is_owner is_trusted_author=$is_trusted_author author_association=$author_association has_label=$has_label has_publish_body=$has_publish_body labels=$issue_labels issue_user=$issue_user repo_owner=${{ github.repository_owner }}"
 
       - name: Checkout
         if: steps.guard.outputs.should_publish == 'true'
@@ -58,6 +75,7 @@ jobs:
           extract_block() {
             local heading="$1"
             awk -v key="### ${heading}" '
+              { gsub(/\r$/, "") }
               $0 == key { flag=1; next }
               flag && /^### / { flag=0 }
               flag { print }
@@ -68,9 +86,10 @@ jobs:
             sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//'
           }
 
-          section="$(extract_block "Section" | tr -d '\r' | trim | head -n 1)"
-          tags_raw="$(extract_block "Tags" | tr -d '\r' | trim | head -n 1)"
-          content="$(extract_block "Content" | sed 's/\r$//')"
+          # awk 'NF{print;exit}' prints the first non-blank line (safe with pipefail).
+          section="$(extract_block "Section" | trim | awk 'NF{print;exit}')"
+          tags_raw="$(extract_block "Tags" | trim | awk 'NF && !/^_No response_$/{print;exit}')"
+          content="$(extract_block "Content" | sed '/./,$!d')"
 
           if [ -z "${section}" ] || [ -z "${content}" ]; then
             echo "Missing required section/content in issue form."
