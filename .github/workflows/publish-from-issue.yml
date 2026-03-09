@@ -2,7 +2,7 @@ name: Publish From Issue
 
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled]
 
 permissions:
   contents: write
@@ -10,13 +10,45 @@ permissions:
 
 jobs:
   publish:
-    if: contains(github.event.issue.labels.*.name, 'publish-post') && github.event.issue.user.login == github.repository_owner
     runs-on: ubuntu-latest
     steps:
+      - name: Guard - owner and label check
+        id: guard
+        env:
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          REPO_OWNER: ${{ github.repository_owner }}
+          ISSUE_LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
+        run: |
+          set -euo pipefail
+
+          issue_user_lc="$(printf '%s' "$ISSUE_USER" | tr '[:upper:]' '[:lower:]')"
+          repo_owner_lc="$(printf '%s' "$REPO_OWNER" | tr '[:upper:]' '[:lower:]')"
+
+          is_owner="false"
+          has_label="false"
+
+          if [ "$issue_user_lc" = "$repo_owner_lc" ]; then
+            is_owner="true"
+          fi
+
+          case ",$ISSUE_LABELS," in
+            *,publish-post,*) has_label="true" ;;
+          esac
+
+          if [ "$is_owner" = "true" ] && [ "$has_label" = "true" ]; then
+            echo "should_publish=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "should_publish=false" >> "$GITHUB_OUTPUT"
+          echo "Skipping publish: is_owner=$is_owner has_label=$has_label labels=$ISSUE_LABELS"
+
       - name: Checkout
+        if: steps.guard.outputs.should_publish == 'true'
         uses: actions/checkout@v4
 
       - name: Create post from issue form
+        if: steps.guard.outputs.should_publish == 'true'
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_BODY: ${{ github.event.issue.body }}
@@ -111,6 +143,7 @@ EOF
           echo "NEW_FILE=$file" >> "$GITHUB_ENV"
 
       - name: Commit and push
+        if: steps.guard.outputs.should_publish == 'true'
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -120,6 +153,7 @@ EOF
           git push
 
       - name: Comment and close issue
+        if: steps.guard.outputs.should_publish == 'true'
         uses: actions/github-script@v7
         with:
           script: |
