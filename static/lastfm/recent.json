@@ -1,0 +1,62 @@
+{
+  "user": "Z512",
+  "generated_at": "2026-05-09T19:41:25.370Z",
+  "albums": [
+    {
+      "artist": "Ohtis",
+      "album": "Schatze b/w Failure",
+      "track": "Schatze",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/6128244543f8f6bfe6248deb7e7203e4.jpg",
+      "url": "https://www.last.fm/music/Ohtis/_/Schatze"
+    },
+    {
+      "artist": "Aphex Twin",
+      "album": "Drukqs",
+      "track": "Avril 14th",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/0c5853ff38e027843b907a821257534e.jpg",
+      "url": "https://www.last.fm/music/Aphex+Twin/_/Avril+14th"
+    },
+    {
+      "artist": "Cults",
+      "album": "Host",
+      "track": "Monolithic",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/a6890c757b281c97ee073add94882dae.jpg",
+      "url": "https://www.last.fm/music/Cults/_/Monolithic"
+    },
+    {
+      "artist": "Caroline",
+      "album": "caroline 2",
+      "track": "Tell me I never knew that",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/73c136dc087473cf8f94727dd9fc41e8.png",
+      "url": "https://www.last.fm/music/Caroline/_/Tell+me+I+never+knew+that"
+    },
+    {
+      "artist": "Geese",
+      "album": "Getting Killed",
+      "track": "Au Pays du Cocaine",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/75695cd196406316f055a757728c6ee7.jpg",
+      "url": "https://www.last.fm/music/Geese/_/Au+Pays+du+Cocaine"
+    },
+    {
+      "artist": "Deafheaven",
+      "album": "Ordinary Corrupt Human Love",
+      "track": "You Without End",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/14499c4d27be2a70c9483f44faccdbfc.jpg",
+      "url": "https://www.last.fm/music/Deafheaven/_/You+Without+End"
+    },
+    {
+      "artist": "Alcest",
+      "album": "Souvenirs d'un autre monde",
+      "track": "Sur l'autre rive je t'attendrai",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/f21e1571f83b48f2c8fbb3a6e495e365.png",
+      "url": "https://www.last.fm/music/Alcest/_/Sur+l%27autre+rive+je+t%27attendrai"
+    },
+    {
+      "artist": "Rolo Tomassi",
+      "album": "Time Will Die and Love Will Bury It",
+      "track": "Aftermath",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/7c20de1ae6783d3c89b13dde03f921f5.jpg",
+      "url": "https://www.last.fm/music/Rolo+Tomassi/_/Aftermath"
+    }
+  ]
+}

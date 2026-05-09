@@ -1,6 +1,6 @@
 base_url = "https://akshat-512.github.io/"
-title = "Thought Diary"
-description = "Here I unload my thoughts about music, films, books, and whatever else catches my attention."
+title = "AKSHAT.LOG"
+description = "A small personal feed for music, films, books, and stray thoughts."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -24,17 +24,21 @@ light_theme = "everforest-light"
 list_pages = true
 
 header_nav = [
-    { name = "~home", url = "/" },
-    { name = "articles", url = "/articles/" },
-    { name = "movies", url = "/movies/" },
-    { name = "music", url = "/music/" },
-    { name = "literature", url = "/books/" },
-    { name = "#links", url = "/links/" },
+    { name = "New", url = "/" },
+    { name = "Essays", url = "/articles/" },
+    { name = "Music", url = "/music/" },
+    { name = "Movies", url = "/movies/" },
+    { name = "Books", url = "/books/" },
+    { name = "Links", url = "/links/" },
 ]
 
-footer_nav = [
-    { name = "rss", url = "/atom.xml" },
-]
+footer_nav = []
 
+profile_links = [
+    { name = "RateYourMusic", url = "https://rateyourmusic.com/~Tablefan", icon = "https://www.google.com/s2/favicons?domain=rateyourmusic.com&sz=64" },
+    { name = "Last.fm", url = "https://www.last.fm/user/Z512", icon = "https://www.google.com/s2/favicons?domain=last.fm&sz=64" },
+    { name = "Goodreads", url = "https://www.goodreads.com/user/show/68893351-akshat-singhai", icon = "https://www.google.com/s2/favicons?domain=goodreads.com&sz=64" },
+    { name = "Letterboxd", url = "https://letterboxd.com/akshat9512/", icon = "https://www.google.com/s2/favicons?domain=letterboxd.com&sz=64" },
+]
 
 add_toc = true

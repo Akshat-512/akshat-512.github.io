@@ -1,12 +1,6 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <section class="hero">
-    <div class="hero-copy">
-      {{ section.content | safe }}
-    </div>
-  </section>
-
   {% set articles = get_section(path="articles/_index.md") %}
   {% set music = get_section(path="music/_index.md") %}
   {% set books = get_section(path="books/_index.md") %}
@@ -18,14 +12,227 @@
     | sort(attribute="date")
     | reverse
   %}
-  {% if combined_posts | length > 0 %}
-    <section>
-      <h2>Latest Articles</h2>
-      <ul>
-        {% for page in combined_posts | slice(end=3) %}
-          <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </section>
-  {% endif %}
+
+  <div class="home-grid">
+    <aside class="home-column home-column-left" aria-label="Site introduction">
+      <section class="intro-card">
+        <p class="eyebrow">Personal feed</p>
+        <h1>Notes from a quieter corner of the web.</h1>
+        <div class="intro-copy">
+          {{ section.content | safe }}
+        </div>
+        <div class="button-row">
+          <a class="button button-primary" href="/articles/">Read latest</a>
+          <a class="button button-secondary" href="/blog/about/">About</a>
+        </div>
+      </section>
+
+      <figure class="image-note">
+        <img src="/bismillah.jpg" alt="Bismillah album cover by Peter Cat Recording Co." loading="lazy">
+        <figcaption>pcrc's bismillah</figcaption>
+      </figure>
+
+      <section class="side-card">
+        <div class="side-card-header">
+          <h2>Topics</h2>
+          <span class="side-card-mark">#</span>
+        </div>
+        <nav class="topic-list" aria-label="Topics">
+          <a href="/articles/"># essays</a>
+          <a href="/music/"># music</a>
+          <a href="/movies/"># movies</a>
+          <a href="/books/"># literature</a>
+          <a href="/links/"># links</a>
+        </nav>
+      </section>
+    </aside>
+
+    <div class="center-column">
+      <section class="feed-panel scrollable-feed" aria-labelledby="feed-title">
+        <div class="feed-header">
+          <div>
+            <p class="eyebrow">New</p>
+            <h2 id="feed-title">Latest writing</h2>
+          </div>
+          <a class="feed-link" href="/articles/">Archive</a>
+        </div>
+
+        {% if combined_posts | length > 0 %}
+          <div class="feed-list">
+            {% for page in combined_posts | slice(end=12) %}
+              <article class="feed-item">
+                <div class="feed-rank">
+                  {% if loop.index < 10 %}0{{ loop.index }}{% else %}{{ loop.index }}{% endif %}
+                </div>
+                <div class="feed-item-main">
+                  <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+                  <div class="feed-meta">
+                    {% if page.taxonomies.tags %}
+                      {% for tag in page.taxonomies.tags | slice(end=1) %}
+                        <span class="source-badge">{{ tag | truncate(length=2, end="") | upper }}</span>
+                      {% endfor %}
+                    {% else %}
+                      <span class="source-badge">TD</span>
+                    {% endif %}
+                    {% if page.date %}<time datetime="{{ page.date }}">{{ page.date | date(format="%b %d, %Y") }}</time>{% endif %}
+                    {% if page.reading_time %}<span>{{ page.reading_time }} min read</span>{% endif %}
+                    {% if page.taxonomies.tags %}
+                      <span>{{ page.taxonomies.tags | join(sep=", ") | truncate(length=48) }}</span>
+                    {% endif %}
+                  </div>
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+        {% else %}
+          <p class="empty-state">No posts yet.</p>
+        {% endif %}
+      </section>
+
+      <section class="topster-card" aria-labelledby="topster-title">
+        <div class="topster-header">
+          <div>
+            <p class="eyebrow">Last.fm</p>
+            <h2 id="topster-title">Artists in rotation</h2>
+          </div>
+          <a class="feed-link" href="https://www.last.fm/user/Z512" target="_blank" rel="noopener">Z512</a>
+        </div>
+        <div class="topster-grid" data-lastfm-artists>
+          <p class="topster-loading">Loading artists...</p>
+        </div>
+      </section>
+
+      <section class="topster-card" aria-labelledby="albums-title">
+        <div class="topster-header">
+          <div>
+            <p class="eyebrow">Topster</p>
+            <h2 id="albums-title">Favorite albums</h2>
+          </div>
+        </div>
+        <div class="topster-grid album-topster-grid">
+          <figure class="topster-tile" title="Circles - Mac Miller"><img src="/albums/circles.png" alt="Circles album cover." loading="lazy"><figcaption><span>Circles</span>Mac Miller</figcaption></figure>
+          <figure class="topster-tile" title="69 Love Songs - The Magnetic Fields"><img src="/albums/69-love-songs.jpg" alt="69 Love Songs album cover." loading="lazy"><figcaption><span>69 Love Songs</span>The Magnetic Fields</figcaption></figure>
+          <figure class="topster-tile" title="Sound of Silver - LCD Soundsystem"><img src="/albums/sound-of-silver.png" alt="Sound of Silver album cover." loading="lazy"><figcaption><span>Sound of Silver</span>LCD Soundsystem</figcaption></figure>
+          <figure class="topster-tile" title="Either/Or - Elliott Smith"><img src="/albums/either-or.png" alt="Either/Or album cover." loading="lazy"><figcaption><span>Either/Or</span>Elliott Smith</figcaption></figure>
+          <figure class="topster-tile" title="The New Abnormal - The Strokes"><img src="/albums/the-new-abnormal.png" alt="The New Abnormal album cover." loading="lazy"><figcaption><span>The New Abnormal</span>The Strokes</figcaption></figure>
+          <figure class="topster-tile" title="XO - Elliott Smith"><img src="/albums/xo.png" alt="XO album cover." loading="lazy"><figcaption><span>XO</span>Elliott Smith</figcaption></figure>
+          <figure class="topster-tile" title="For Emma - Bon Iver"><img src="/albums/for-emma-forever-ago.png" alt="For Emma, Forever Ago album cover." loading="lazy"><figcaption><span>For Emma</span>Bon Iver</figcaption></figure>
+          <figure class="topster-tile" title="Doolittle - Pixies"><img src="/albums/doolittle.webp" alt="Doolittle album cover." loading="lazy"><figcaption><span>Doolittle</span>Pixies</figcaption></figure>
+          <figure class="topster-tile" title="American Football - American Football"><img src="/albums/american-football.jpg" alt="American Football album cover." loading="lazy"><figcaption><span>American Football</span>American Football</figcaption></figure>
+          <figure class="topster-tile" title="Nevermind - Nirvana"><img src="/albums/nevermind.png" alt="Nevermind album cover." loading="lazy"><figcaption><span>Nevermind</span>Nirvana</figcaption></figure>
+          <figure class="topster-tile" title="Pink Moon - Nick Drake"><img src="/albums/pink-moon.png" alt="Pink Moon album cover." loading="lazy"><figcaption><span>Pink Moon</span>Nick Drake</figcaption></figure>
+          <figure class="topster-tile" title="Chet Baker Sings - Chet Baker"><img src="/albums/chet-baker-sings.png" alt="Chet Baker Sings album cover." loading="lazy"><figcaption><span>Chet Baker Sings</span>Chet Baker</figcaption></figure>
+          <figure class="topster-tile" title="Quebec - Ween"><img src="/albums/quebec.jpg" alt="Quebec album cover." loading="lazy"><figcaption><span>Quebec</span>Ween</figcaption></figure>
+          <figure class="topster-tile" title="Songs for the Deaf - QOTSA"><img src="/albums/songs-for-the-deaf.jpg" alt="Songs for the Deaf album cover." loading="lazy"><figcaption><span>Songs for the Deaf</span>QOTSA</figcaption></figure>
+          <figure class="topster-tile" title="Keep It Like a Secret - Built to Spill"><img src="/albums/keep-it-like-a-secret.png" alt="Keep It Like a Secret album cover." loading="lazy"><figcaption><span>Keep It Like a Secret</span>Built to Spill</figcaption></figure>
+          <figure class="topster-tile" title="In Rainbows - Radiohead"><img src="/albums/in-rainbows.jpg" alt="In Rainbows album cover." loading="lazy"><figcaption><span>In Rainbows</span>Radiohead</figcaption></figure>
+        </div>
+      </section>
+    </div>
+
+    <aside class="home-column home-column-right" aria-label="Site details">
+      <section class="side-card stat-card">
+        <p class="eyebrow">Writing stats</p>
+        <div class="stat-number">{{ combined_posts | length }}</div>
+        <p>published notes across music, films, books, and essays.</p>
+      </section>
+
+      <section class="side-card">
+        <div class="side-card-header">
+          <h2>Find me on</h2>
+          <span class="side-card-mark">@</span>
+        </div>
+        {% if config.extra.profile_links %}
+          <div class="profile-list">
+            {% for item in config.extra.profile_links %}
+              <a class="profile-link" href="{{ item.url | safe }}" target="_blank" rel="noopener">
+                {% if item.icon %}
+                  <span class="profile-icon-wrap">
+                    <img class="profile-icon" src="{{ item.icon | safe }}" alt="" loading="lazy" width="20" height="20">
+                  </span>
+                {% else %}
+                  <span class="profile-avatar">{{ item.name | truncate(length=2, end="") | upper }}</span>
+                {% endif %}
+                <span>{{ item.name }}</span>
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </section>
+    </aside>
+  </div>
+
+  <script>
+    (function () {
+      const mount = document.querySelector("[data-lastfm-artists]");
+      if (!mount) {
+        return;
+      }
+
+      function text(value) {
+        return value || "";
+      }
+
+      function escapeHtml(value) {
+        return text(value)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      }
+
+      function initials(name) {
+        return text(name)
+          .split(/\s+/)
+          .filter(Boolean)
+          .slice(0, 2)
+          .map(function (part) { return part.charAt(0); })
+          .join("")
+          .toUpperCase() || "FM";
+      }
+
+      function render(artists) {
+        if (!artists || artists.length === 0) {
+          mount.innerHTML = '<p class="topster-loading">No artist data yet.</p>';
+          return;
+        }
+
+        mount.innerHTML = artists.slice(0, 8).map(function (artist, index) {
+          const name = escapeHtml(artist.name);
+          const plays = Number(artist.plays || 0);
+          const image = escapeHtml(artist.image);
+          const url = escapeHtml(artist.url || "https://www.last.fm/user/Z512");
+          const tooltip = name + " - " + plays + " plays this month";
+          const large = index === 0 ? " topster-tile-large" : "";
+          const visual = image
+            ? '<img src="' + image + '" alt="Photo of ' + name + '." loading="lazy">'
+            : '<div class="topster-placeholder">' + initials(artist.name) + '</div>';
+
+          return [
+            '<figure class="topster-tile' + large + '" title="' + tooltip + '">',
+            '  <a href="' + url + '" target="_blank" rel="noopener">',
+            visual,
+            "  </a>",
+            "  <figcaption><span>" + name + "</span>" + plays + " plays this month</figcaption>",
+            "</figure>"
+          ].join("");
+        }).join("");
+      }
+
+      fetch("/lastfm/artists-month.json", { cache: "no-store" })
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error("Could not load Last.fm data.");
+          }
+          return response.json();
+        })
+        .then(function (data) {
+          render(data.artists);
+        })
+        .catch(function () {
+          mount.innerHTML = '<p class="topster-loading">Artist rotation is unavailable right now.</p>';
+        });
+    })();
+  </script>
 {% endblock %}

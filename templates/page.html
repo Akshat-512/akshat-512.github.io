@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <article class="panel page">
+  <article class="page-surface">
     <header class="page-header">
+      <p class="eyebrow">Entry</p>
       <h1>{{ page.title }}</h1>
       <div class="page-meta">
-        {% if page.date %}<span>{{ page.date | date(format="%Y-%m-%d") }}</span>{% endif %}
+        {% if page.date %}<time datetime="{{ page.date }}">{{ page.date | date(format="%b %d, %Y") }}</time>{% endif %}
         {% if page.reading_time %}<span>{{ page.reading_time }} min read</span>{% endif %}
         {% if page.word_count %}<span>{{ page.word_count }} words</span>{% endif %}
       </div>

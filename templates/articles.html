@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <section class="panel">
+  <section class="section-hero">
+    <p class="eyebrow">Archive</p>
     <h1>{{ section.title }}</h1>
     {% if section.content %}
       <div class="section-intro">{{ section.content | safe }}</div>
@@ -10,44 +11,43 @@
 
   {% set pages = paginator.pages | default(value=section.pages) %}
   {% if pages | length > 0 %}
-    <section class="panel">
-      <div class="article-list">
+    <section class="feed-panel feed-panel-wide">
+      <div class="feed-list">
         {% for page in pages %}
-          <article class="article-row">
-            <div class="article-row-meta">
-              {% if page.date %}<span>{{ page.date | date(format="%Y-%m-%d") }}</span>{% endif %}
-              {% if page.reading_time %}<span>{{ page.reading_time }} min</span>{% endif %}
+          <article class="feed-item">
+            <div class="feed-rank">
+              {% if loop.index < 10 %}0{{ loop.index }}{% else %}{{ loop.index }}{% endif %}
             </div>
-            <div class="article-row-main">
-              <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
-              {% if page.taxonomies.tags %}
-                <div class="tag-row">
-                  {% for tag in page.taxonomies.tags %}
-                    <a class="tag" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag }}</a>
+            <div class="feed-item-main">
+              <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+              <div class="feed-meta">
+                {% if page.taxonomies.tags %}
+                  {% for tag in page.taxonomies.tags | slice(end=1) %}
+                    <span class="source-badge">{{ tag | truncate(length=2, end="") | upper }}</span>
                   {% endfor %}
-                </div>
-              {% endif %}
-              {% if page.summary %}
-                <p>{{ page.summary | safe }}</p>
-              {% else %}
-                <p>{{ page.content | striptags | truncate(length=200) }}</p>
-              {% endif %}
+                {% else %}
+                  <span class="source-badge">TD</span>
+                {% endif %}
+                {% if page.date %}<time datetime="{{ page.date }}">{{ page.date | date(format="%b %d, %Y") }}</time>{% endif %}
+                {% if page.reading_time %}<span>{{ page.reading_time }} min read</span>{% endif %}
+                {% if page.taxonomies.tags %}
+                  <span>{{ page.taxonomies.tags | join(sep=", ") | truncate(length=48) }}</span>
+                {% endif %}
+              </div>
             </div>
           </article>
         {% endfor %}
       </div>
     </section>
     {% if paginator %}
-      <section class="panel">
-        <div class="panel-header">
-          {% if paginator.previous %}
-            <a class="panel-link" href="{{ paginator.previous }}">Newer</a>
-          {% endif %}
-          {% if paginator.next %}
-            <a class="panel-link" href="{{ paginator.next }}">Older</a>
-          {% endif %}
-        </div>
-      </section>
+      <nav class="pager" aria-label="Pagination">
+        {% if paginator.previous %}
+          <a class="button button-secondary" href="{{ paginator.previous }}">Newer</a>
+        {% endif %}
+        {% if paginator.next %}
+          <a class="button button-secondary" href="{{ paginator.next }}">Older</a>
+        {% endif %}
+      </nav>
     {% endif %}
   {% endif %}
 {% endblock %}

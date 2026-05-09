@@ -1,0 +1,37 @@
+name: Update Last.fm Topster
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-lastfm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate Last.fm artist topster data
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          LASTFM_USER: Z512
+          LASTFM_PERIOD: 1month
+        run: node scripts/update-lastfm-topster.mjs
+
+      - name: Commit updated topster data
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- static/lastfm/artists-month.json; then
+            echo "No Last.fm changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add static/lastfm/artists-month.json
+          git commit -m "Update Last.fm topster"
+          git push

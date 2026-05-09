@@ -19,36 +19,36 @@
   <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path="atom.xml") }}">
 </head>
 <body>
-  <div class="site-shell">
-    <header class="site-header">
-      <div class="brand">
-        <a class="brand-title" href="/">{{ config.title }}</a>
-        {% if config.description %}
-          <p class="brand-subtitle">{{ config.description }}</p>
-        {% endif %}
-      </div>
+  <header class="site-topbar">
+    <div class="site-topbar-inner">
+      <a class="brand-title" href="/">{{ config.title }}</a>
       {% if config.extra.header_nav %}
-        <nav class="site-nav">
+        <nav class="site-nav" aria-label="Primary navigation">
           {% for item in config.extra.header_nav %}
             <a class="nav-link" href="{{ item.url | safe }}" {% if item.new_tab %}target="_blank" rel="noopener"{% endif %}>{{ item.name }}</a>
           {% endfor %}
         </nav>
       {% endif %}
-    </header>
+      <a class="topbar-action" href="/atom.xml">RSS</a>
+    </div>
+  </header>
 
+  <div class="site-shell">
     <main class="site-main">
       {% block content %}{% endblock %}
     </main>
 
     <footer class="site-footer">
-      {% if config.extra.footer_nav %}
-        <nav class="footer-nav">
-          {% for item in config.extra.footer_nav %}
-            <a class="footer-link" href="{{ item.url | safe }}" {% if item.new_tab %}target="_blank" rel="noopener"{% endif %}>{{ item.name }}</a>
-          {% endfor %}
-        </nav>
-      {% endif %}
-      <p class="footer-note">Thanks for reading.</p>
+      <div class="footer-inner">
+        <p class="footer-note">{{ config.description }}</p>
+        {% if config.extra.footer_nav %}
+          <nav class="footer-nav" aria-label="Footer navigation">
+            {% for item in config.extra.footer_nav %}
+              <a class="footer-link" href="{{ item.url | safe }}" {% if item.new_tab %}target="_blank" rel="noopener"{% endif %}>{{ item.name }}</a>
+            {% endfor %}
+          </nav>
+        {% endif %}
+      </div>
     </footer>
   </div>
 </body>
