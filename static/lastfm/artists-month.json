@@ -1,55 +1,55 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-09T19:47:36.317Z",
+  "generated_at": "2026-05-10T04:16:49.472Z",
   "artists": [
     {
       "name": "Sam Fender",
       "plays": 42,
       "url": "https://www.last.fm/music/Sam+Fender",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/27156b2a0063d7fe332855322d33886c.jpg"
+      "image": ""
     },
     {
       "name": "Rolo Tomassi",
       "plays": 40,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/319c4492575740d6b73e6b4050cb55f1.jpg"
-    },
-    {
-      "name": "Joji",
-      "plays": 37,
-      "url": "https://www.last.fm/music/Joji",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/fd3b4865104d584287016c14ee02cd87.jpg"
+      "image": ""
     },
     {
       "name": "Deafheaven",
       "plays": 28,
       "url": "https://www.last.fm/music/Deafheaven",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/59a7a02704b32259e665a20e1aa81973.jpg"
+      "image": ""
+    },
+    {
+      "name": "American Football",
+      "plays": 27,
+      "url": "https://www.last.fm/music/American+Football",
+      "image": ""
     },
     {
       "name": "Geese",
       "plays": 27,
       "url": "https://www.last.fm/music/Geese",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/c34b53a88098e1bba22414ce8dfd12a1.jpg"
+      "image": ""
     },
     {
       "name": "Modest Mouse",
-      "plays": 25,
+      "plays": 26,
       "url": "https://www.last.fm/music/Modest+Mouse",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/44f6ea4b06274238bbae9db1cab9c2bf.jpg"
-    },
-    {
-      "name": "American Football",
-      "plays": 24,
-      "url": "https://www.last.fm/music/American+Football",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
+      "image": ""
     },
     {
       "name": "The Strokes",
-      "plays": 24,
+      "plays": 25,
       "url": "https://www.last.fm/music/The+Strokes",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/7b842f43e9879b01281d289c8434fe99.jpg"
+      "image": ""
+    },
+    {
+      "name": "Joji",
+      "plays": 24,
+      "url": "https://www.last.fm/music/Joji",
+      "image": ""
     }
   ]
 }
