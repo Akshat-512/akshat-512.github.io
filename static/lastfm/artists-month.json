@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-11T15:36:51.718Z",
+  "generated_at": "2026-05-11T20:04:24.614Z",
   "artists": [
     {
       "name": "Rolo Tomassi",
@@ -19,7 +19,7 @@
       "name": "Geese",
       "plays": 29,
       "url": "https://www.last.fm/music/Geese",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/c34b53a88098e1bba22414ce8dfd12a1.jpg"
     },
     {
       "name": "Deafheaven",
