@@ -1,25 +1,25 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-13T15:15:42.031Z",
+  "generated_at": "2026-05-13T20:14:24.549Z",
   "artists": [
     {
       "name": "Rolo Tomassi",
       "plays": 44,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/319c4492575740d6b73e6b4050cb55f1.jpg"
     },
     {
       "name": "Sam Fender",
-      "plays": 42,
+      "plays": 41,
       "url": "https://www.last.fm/music/Sam+Fender",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/01e589113ab0106dc6b67fc6e75f087d.jpg"
     },
     {
       "name": "Geese",
       "plays": 29,
       "url": "https://www.last.fm/music/Geese",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/c34b53a88098e1bba22414ce8dfd12a1.jpg"
     },
     {
       "name": "American Football",
@@ -31,7 +31,13 @@
       "name": "Deafheaven",
       "plays": 27,
       "url": "https://www.last.fm/music/Deafheaven",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/59a7a02704b32259e665a20e1aa81973.jpg"
+    },
+    {
+      "name": "The Strokes",
+      "plays": 23,
+      "url": "https://www.last.fm/music/The+Strokes",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/baa72b27691f44c479db96fbfcfd7647.jpg"
     },
     {
       "name": "Jack Johnson",
@@ -40,16 +46,10 @@
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/29096e340d53416596d73e72354cd861.jpg"
     },
     {
-      "name": "The Strokes",
+      "name": "Modest Mouse",
       "plays": 22,
-      "url": "https://www.last.fm/music/The+Strokes",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/baa72b27691f44c479db96fbfcfd7647.jpg"
-    },
-    {
-      "name": "Aphex Twin",
-      "plays": 21,
-      "url": "https://www.last.fm/music/Aphex+Twin",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/7daf0b1b42fbfd16b310561637631a6c.jpg"
+      "url": "https://www.last.fm/music/Modest+Mouse",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/44f6ea4b06274238bbae9db1cab9c2bf.jpg"
     }
   ]
 }
