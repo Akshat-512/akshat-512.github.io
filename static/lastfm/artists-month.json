@@ -1,25 +1,25 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-13T20:14:24.549Z",
+  "generated_at": "2026-05-14T04:13:36.591Z",
   "artists": [
     {
       "name": "Rolo Tomassi",
       "plays": 44,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/319c4492575740d6b73e6b4050cb55f1.jpg"
+      "image": ""
     },
     {
       "name": "Sam Fender",
       "plays": 41,
       "url": "https://www.last.fm/music/Sam+Fender",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/01e589113ab0106dc6b67fc6e75f087d.jpg"
+      "image": ""
     },
     {
       "name": "Geese",
       "plays": 29,
       "url": "https://www.last.fm/music/Geese",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/c34b53a88098e1bba22414ce8dfd12a1.jpg"
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/fdc82e5a48625285aff73685f16de8f9.jpg"
     },
     {
       "name": "American Football",
@@ -31,7 +31,7 @@
       "name": "Deafheaven",
       "plays": 27,
       "url": "https://www.last.fm/music/Deafheaven",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/59a7a02704b32259e665a20e1aa81973.jpg"
+      "image": ""
     },
     {
       "name": "The Strokes",
@@ -43,7 +43,7 @@
       "name": "Jack Johnson",
       "plays": 22,
       "url": "https://www.last.fm/music/Jack+Johnson",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/29096e340d53416596d73e72354cd861.jpg"
+      "image": ""
     },
     {
       "name": "Modest Mouse",
