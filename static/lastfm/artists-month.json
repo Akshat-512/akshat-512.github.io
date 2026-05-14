@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-14T09:10:20.528Z",
+  "generated_at": "2026-05-14T14:42:28.842Z",
   "artists": [
     {
       "name": "Rolo Tomassi",
@@ -19,13 +19,13 @@
       "name": "Geese",
       "plays": 29,
       "url": "https://www.last.fm/music/Geese",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/fdc82e5a48625285aff73685f16de8f9.jpg"
+      "image": ""
     },
     {
       "name": "American Football",
       "plays": 27,
       "url": "https://www.last.fm/music/American+Football",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
+      "image": ""
     },
     {
       "name": "Deafheaven",
@@ -37,7 +37,7 @@
       "name": "The Strokes",
       "plays": 23,
       "url": "https://www.last.fm/music/The+Strokes",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/baa72b27691f44c479db96fbfcfd7647.jpg"
+      "image": ""
     },
     {
       "name": "Jack Johnson",
