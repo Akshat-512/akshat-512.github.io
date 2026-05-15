@@ -1,19 +1,19 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-15T09:24:51.945Z",
+  "generated_at": "2026-05-15T14:36:28.040Z",
   "artists": [
     {
       "name": "Rolo Tomassi",
       "plays": 44,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/319c4492575740d6b73e6b4050cb55f1.jpg"
+      "image": ""
     },
     {
       "name": "Sam Fender",
       "plays": 40,
       "url": "https://www.last.fm/music/Sam+Fender",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/01e589113ab0106dc6b67fc6e75f087d.jpg"
+      "image": ""
     },
     {
       "name": "Geese",
