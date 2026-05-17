@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-17T13:57:56.065Z",
+  "generated_at": "2026-05-17T19:37:23.966Z",
   "artists": [
     {
       "name": "Rolo Tomassi",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Black Country, New Road",
-      "plays": 36,
+      "plays": 44,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
       "image": ""
     },
@@ -23,7 +23,7 @@
     },
     {
       "name": "American Football",
-      "plays": 29,
+      "plays": 30,
       "url": "https://www.last.fm/music/American+Football",
       "image": ""
     },
@@ -35,7 +35,7 @@
     },
     {
       "name": "The Strokes",
-      "plays": 26,
+      "plays": 25,
       "url": "https://www.last.fm/music/The+Strokes",
       "image": ""
     },
@@ -43,7 +43,7 @@
       "name": "Aphex Twin",
       "plays": 22,
       "url": "https://www.last.fm/music/Aphex+Twin",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/7daf0b1b42fbfd16b310561637631a6c.jpg"
     },
     {
       "name": "Jack Johnson",
