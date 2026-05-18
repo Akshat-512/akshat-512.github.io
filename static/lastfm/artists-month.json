@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-18T15:56:53.819Z",
+  "generated_at": "2026-05-18T20:02:45.469Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -17,25 +17,25 @@
     },
     {
       "name": "American Football",
-      "plays": 30,
+      "plays": 31,
       "url": "https://www.last.fm/music/American+Football",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
+      "image": ""
     },
     {
       "name": "Deafheaven",
       "plays": 27,
       "url": "https://www.last.fm/music/Deafheaven",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/59a7a02704b32259e665a20e1aa81973.jpg"
     },
     {
       "name": "Sam Fender",
       "plays": 26,
       "url": "https://www.last.fm/music/Sam+Fender",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/01e589113ab0106dc6b67fc6e75f087d.jpg"
+      "image": ""
     },
     {
       "name": "The Strokes",
-      "plays": 24,
+      "plays": 23,
       "url": "https://www.last.fm/music/The+Strokes",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/baa72b27691f44c479db96fbfcfd7647.jpg"
     },
