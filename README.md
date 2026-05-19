@@ -1,6 +1,7 @@
 This is my personal site built with Zola.
 
-The structure:
+Actions supported:
+
 
 Add an article:
 1. Run `scripts/new-article.sh "Title of your post"`.
