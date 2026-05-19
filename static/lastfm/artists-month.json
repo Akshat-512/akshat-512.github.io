@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-19T15:50:43.401Z",
+  "generated_at": "2026-05-19T20:04:10.317Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -19,7 +19,7 @@
       "name": "American Football",
       "plays": 31,
       "url": "https://www.last.fm/music/American+Football",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
     },
     {
       "name": "Deafheaven",
@@ -28,14 +28,8 @@
       "image": ""
     },
     {
-      "name": "Sam Fender",
-      "plays": 25,
-      "url": "https://www.last.fm/music/Sam+Fender",
-      "image": ""
-    },
-    {
       "name": "The Strokes",
-      "plays": 23,
+      "plays": 24,
       "url": "https://www.last.fm/music/The+Strokes",
       "image": ""
     },
@@ -43,13 +37,19 @@
       "name": "Aphex Twin",
       "plays": 22,
       "url": "https://www.last.fm/music/Aphex+Twin",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/7daf0b1b42fbfd16b310561637631a6c.jpg"
+      "image": ""
     },
     {
       "name": "Jack Johnson",
       "plays": 22,
       "url": "https://www.last.fm/music/Jack+Johnson",
       "image": ""
+    },
+    {
+      "name": "Paramore",
+      "plays": 22,
+      "url": "https://www.last.fm/music/Paramore",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/14eaa8f2f26d4a1631f9ad300d474c60.jpg"
     }
   ]
 }
