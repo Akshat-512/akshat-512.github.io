@@ -1,13 +1,13 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-18T20:02:45.469Z",
+  "generated_at": "2026-05-19T04:34:29.285Z",
   "artists": [
     {
       "name": "Black Country, New Road",
       "plays": 46,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/1084b9e8e7f6d53d0cd1a361ff4fbba3.jpg"
+      "image": ""
     },
     {
       "name": "Rolo Tomassi",
@@ -25,7 +25,7 @@
       "name": "Deafheaven",
       "plays": 27,
       "url": "https://www.last.fm/music/Deafheaven",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/59a7a02704b32259e665a20e1aa81973.jpg"
+      "image": ""
     },
     {
       "name": "Sam Fender",
@@ -37,7 +37,7 @@
       "name": "The Strokes",
       "plays": 23,
       "url": "https://www.last.fm/music/The+Strokes",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/baa72b27691f44c479db96fbfcfd7647.jpg"
+      "image": ""
     },
     {
       "name": "Aphex Twin",
@@ -49,7 +49,7 @@
       "name": "Jack Johnson",
       "plays": 22,
       "url": "https://www.last.fm/music/Jack+Johnson",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/29096e340d53416596d73e72354cd861.jpg"
+      "image": ""
     }
   ]
 }
