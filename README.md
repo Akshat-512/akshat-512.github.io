@@ -1,5 +1,7 @@
 This is my personal site built with Zola.
 
+The structure:
+
 Add an article:
 1. Run `scripts/new-article.sh "Title of your post"`.
 2. Edit the new file in `content/articles/`.
@@ -17,7 +19,7 @@ Examples:
 Posts are created in `content/<section>/` with a date-prefixed filename.
 
 Publish from phone (simple UI):
-1. Open `https://akshat-512.github.io/blog/publish/` from your phone.
+1. Open `<site-url>/blog/publish/` from your phone.
 2. Fill title, section, tags, and markdown content.
 3. Tap `Open GitHub Issue`, sign in, and submit.
 
