@@ -2,7 +2,7 @@ name: Update Last.fm Topster
 
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,10 +23,12 @@ jobs:
         run: node scripts/update-lastfm-topster.mjs
 
       - name: Commit updated topster data
+        id: commit
         run: |
           set -euo pipefail
           if git diff --quiet -- static/lastfm/artists-month.json; then
             echo "No Last.fm changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
@@ -34,4 +36,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add static/lastfm/artists-month.json
           git commit -m "Update Last.fm topster"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
           git push
+
+      - name: Build and deploy updated site
+        if: steps.commit.outputs.changed == 'true'
+        uses: shalzz/zola-deploy-action@v0.17.2
+        env:
+          PAGES_BRANCH: gh-pages
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
