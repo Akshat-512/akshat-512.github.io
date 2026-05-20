@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-19T22:38:08.700Z",
+  "generated_at": "2026-05-20T00:17:29.705Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -31,7 +31,7 @@
       "name": "Aphex Twin",
       "plays": 22,
       "url": "https://www.last.fm/music/Aphex+Twin",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/7daf0b1b42fbfd16b310561637631a6c.jpg"
+      "image": ""
     },
     {
       "name": "Deafheaven",
