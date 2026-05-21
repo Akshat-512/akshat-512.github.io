@@ -1,37 +1,37 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-21T00:17:44.268Z",
+  "generated_at": "2026-05-21T05:19:33.711Z",
   "artists": [
     {
       "name": "Black Country, New Road",
       "plays": 47,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/4de315afffc275925d7af8fe3126ca23.jpg"
+      "image": ""
     },
     {
       "name": "Rolo Tomassi",
       "plays": 46,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/319c4492575740d6b73e6b4050cb55f1.jpg"
+      "image": ""
     },
     {
       "name": "American Football",
       "plays": 31,
       "url": "https://www.last.fm/music/American+Football",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
+      "image": ""
     },
     {
       "name": "The Strokes",
       "plays": 24,
       "url": "https://www.last.fm/music/The+Strokes",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/baa72b27691f44c479db96fbfcfd7647.jpg"
+      "image": ""
     },
     {
       "name": "Aphex Twin",
       "plays": 22,
       "url": "https://www.last.fm/music/Aphex+Twin",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/7daf0b1b42fbfd16b310561637631a6c.jpg"
+      "image": ""
     },
     {
       "name": "Deafheaven",
@@ -43,13 +43,13 @@
       "name": "Paramore",
       "plays": 22,
       "url": "https://www.last.fm/music/Paramore",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/14eaa8f2f26d4a1631f9ad300d474c60.jpg"
+      "image": ""
     },
     {
-      "name": "Sam Fender",
-      "plays": 20,
-      "url": "https://www.last.fm/music/Sam+Fender",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/01e589113ab0106dc6b67fc6e75f087d.jpg"
+      "name": "Sun Kil Moon",
+      "plays": 19,
+      "url": "https://www.last.fm/music/Sun+Kil+Moon",
+      "image": ""
     }
   ]
 }
