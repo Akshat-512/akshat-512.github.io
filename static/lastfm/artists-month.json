@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-20T22:43:39.003Z",
+  "generated_at": "2026-05-21T00:17:44.268Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -13,7 +13,7 @@
       "name": "Rolo Tomassi",
       "plays": 46,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/319c4492575740d6b73e6b4050cb55f1.jpg"
     },
     {
       "name": "American Football",
