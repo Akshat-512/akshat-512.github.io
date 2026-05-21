@@ -1,19 +1,19 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-21T10:03:16.864Z",
+  "generated_at": "2026-05-21T13:32:05.828Z",
   "artists": [
     {
       "name": "Black Country, New Road",
       "plays": 47,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/4de315afffc275925d7af8fe3126ca23.jpg"
     },
     {
       "name": "Rolo Tomassi",
       "plays": 46,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/319c4492575740d6b73e6b4050cb55f1.jpg"
+      "image": ""
     },
     {
       "name": "American Football",
@@ -43,7 +43,7 @@
       "name": "Paramore",
       "plays": 21,
       "url": "https://www.last.fm/music/Paramore",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/14eaa8f2f26d4a1631f9ad300d474c60.jpg"
+      "image": ""
     },
     {
       "name": "Sun Kil Moon",
