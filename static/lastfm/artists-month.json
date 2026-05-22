@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-22T04:35:48.633Z",
+  "generated_at": "2026-05-22T08:31:50.502Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -17,21 +17,15 @@
     },
     {
       "name": "American Football",
-      "plays": 32,
+      "plays": 33,
       "url": "https://www.last.fm/music/American+Football",
-      "image": ""
-    },
-    {
-      "name": "The Strokes",
-      "plays": 25,
-      "url": "https://www.last.fm/music/The+Strokes",
       "image": ""
     },
     {
       "name": "Aphex Twin",
       "plays": 22,
       "url": "https://www.last.fm/music/Aphex+Twin",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/7daf0b1b42fbfd16b310561637631a6c.jpg"
     },
     {
       "name": "Deafheaven",
@@ -50,6 +44,12 @@
       "plays": 22,
       "url": "https://www.last.fm/music/Paramore",
       "image": ""
+    },
+    {
+      "name": "JPEGMAFIA",
+      "plays": 21,
+      "url": "https://www.last.fm/music/JPEGMAFIA",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/eff3a7c76383c7211305466720f0657b.jpg"
     }
   ]
 }
