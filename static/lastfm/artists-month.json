@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-22T11:59:54.901Z",
+  "generated_at": "2026-05-22T15:21:18.931Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -22,6 +22,12 @@
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
     },
     {
+      "name": "Paramore",
+      "plays": 23,
+      "url": "https://www.last.fm/music/Paramore",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/2b667b3a1f0dd3feb0106ce83dd84f74.jpg"
+    },
+    {
       "name": "Deafheaven",
       "plays": 22,
       "url": "https://www.last.fm/music/Deafheaven",
@@ -34,22 +40,16 @@
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3afc22b772bf8fa4a725c54791c15b67.jpg"
     },
     {
-      "name": "Paramore",
+      "name": "JPEGMAFIA",
       "plays": 22,
-      "url": "https://www.last.fm/music/Paramore",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/2b667b3a1f0dd3feb0106ce83dd84f74.jpg"
+      "url": "https://www.last.fm/music/JPEGMAFIA",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/363257bc563531abac4cb1671f80daa4.jpg"
     },
     {
       "name": "Sun Kil Moon",
       "plays": 21,
       "url": "https://www.last.fm/music/Sun+Kil+Moon",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/227ebfaf2a8f49c4a31f6c84aebde289.jpg"
-    },
-    {
-      "name": "Aphex Twin",
-      "plays": 20,
-      "url": "https://www.last.fm/music/Aphex+Twin",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/7daf0b1b42fbfd16b310561637631a6c.jpg"
     }
   ]
 }
