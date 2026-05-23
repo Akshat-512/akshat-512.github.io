@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-23T04:07:00.001Z",
+  "generated_at": "2026-05-23T06:44:53.551Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -19,13 +19,13 @@
       "name": "American Football",
       "plays": 36,
       "url": "https://www.last.fm/music/American+Football",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
     },
     {
       "name": "Deafheaven",
-      "plays": 25,
+      "plays": 26,
       "url": "https://www.last.fm/music/Deafheaven",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/59a7a02704b32259e665a20e1aa81973.jpg"
     },
     {
       "name": "Paramore",
