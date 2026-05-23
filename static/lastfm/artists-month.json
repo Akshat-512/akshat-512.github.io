@@ -1,13 +1,13 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-23T19:36:45.736Z",
+  "generated_at": "2026-05-23T21:08:02.659Z",
   "artists": [
     {
       "name": "Black Country, New Road",
       "plays": 54,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/4de315afffc275925d7af8fe3126ca23.jpg"
+      "image": ""
     },
     {
       "name": "Rolo Tomassi",
@@ -25,7 +25,7 @@
       "name": "Deafheaven",
       "plays": 26,
       "url": "https://www.last.fm/music/Deafheaven",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/59a7a02704b32259e665a20e1aa81973.jpg"
     },
     {
       "name": "Paramore",
@@ -43,7 +43,7 @@
       "name": "JPEGMAFIA",
       "plays": 22,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/83cea67a4f98304499e9e06484035b4f.jpg"
+      "image": ""
     },
     {
       "name": "Sun Kil Moon",
