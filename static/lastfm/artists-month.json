@@ -1,13 +1,13 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-23T22:07:48.996Z",
+  "generated_at": "2026-05-23T23:10:08.603Z",
   "artists": [
     {
       "name": "Black Country, New Road",
       "plays": 54,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/4de315afffc275925d7af8fe3126ca23.jpg"
+      "image": ""
     },
     {
       "name": "Rolo Tomassi",
@@ -22,6 +22,12 @@
       "image": ""
     },
     {
+      "name": "Racing Mount Pleasant",
+      "plays": 28,
+      "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
+      "image": ""
+    },
+    {
       "name": "Deafheaven",
       "plays": 26,
       "url": "https://www.last.fm/music/Deafheaven",
@@ -31,12 +37,6 @@
       "name": "Paramore",
       "plays": 24,
       "url": "https://www.last.fm/music/Paramore",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/db95f669a6095a436c3e72e1e2855541.jpg"
-    },
-    {
-      "name": "Racing Mount Pleasant",
-      "plays": 23,
-      "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
       "image": ""
     },
     {
