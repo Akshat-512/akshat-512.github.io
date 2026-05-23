@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-23T17:16:01.253Z",
+  "generated_at": "2026-05-23T18:11:03.529Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -19,7 +19,7 @@
       "name": "American Football",
       "plays": 37,
       "url": "https://www.last.fm/music/American+Football",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
+      "image": ""
     },
     {
       "name": "Deafheaven",
@@ -43,7 +43,7 @@
       "name": "JPEGMAFIA",
       "plays": 22,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/83cea67a4f98304499e9e06484035b4f.jpg"
+      "image": ""
     },
     {
       "name": "Sun Kil Moon",
