@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-23T15:18:39.148Z",
+  "generated_at": "2026-05-23T17:16:01.253Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -19,7 +19,7 @@
       "name": "American Football",
       "plays": 37,
       "url": "https://www.last.fm/music/American+Football",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
     },
     {
       "name": "Deafheaven",
@@ -37,7 +37,7 @@
       "name": "Elliott Smith",
       "plays": 22,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/75ea018b4a5f6389181dce6da867d631.jpg"
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/ff069bd9d941bc021612492725d69952.jpg"
     },
     {
       "name": "JPEGMAFIA",
