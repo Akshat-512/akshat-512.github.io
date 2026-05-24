@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-23T23:10:08.603Z",
+  "generated_at": "2026-05-24T00:11:22.028Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -37,19 +37,19 @@
       "name": "Paramore",
       "plays": 24,
       "url": "https://www.last.fm/music/Paramore",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/db95f669a6095a436c3e72e1e2855541.jpg"
     },
     {
       "name": "Elliott Smith",
       "plays": 22,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/ff069bd9d941bc021612492725d69952.jpg"
     },
     {
       "name": "JPEGMAFIA",
       "plays": 22,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/83cea67a4f98304499e9e06484035b4f.jpg"
+      "image": ""
     }
   ]
 }
