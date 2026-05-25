@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-24T23:13:41.532Z",
+  "generated_at": "2026-05-25T00:13:23.612Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -37,7 +37,7 @@
       "name": "Paramore",
       "plays": 24,
       "url": "https://www.last.fm/music/Paramore",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/db95f669a6095a436c3e72e1e2855541.jpg"
     },
     {
       "name": "Elliott Smith",
