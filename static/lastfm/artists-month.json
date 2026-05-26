@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-26T19:28:04.605Z",
+  "generated_at": "2026-05-26T21:57:48.428Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -17,7 +17,7 @@
     },
     {
       "name": "Racing Mount Pleasant",
-      "plays": 42,
+      "plays": 43,
       "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
       "image": ""
     },
@@ -31,13 +31,13 @@
       "name": "JPEGMAFIA",
       "plays": 32,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/bb36f2468e90f1a81ba83b87a352568e.jpg"
+      "image": ""
     },
     {
       "name": "Deafheaven",
       "plays": 24,
       "url": "https://www.last.fm/music/Deafheaven",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/59a7a02704b32259e665a20e1aa81973.jpg"
+      "image": ""
     },
     {
       "name": "Paramore",
@@ -49,7 +49,7 @@
       "name": "Elliott Smith",
       "plays": 22,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/75ea018b4a5f6389181dce6da867d631.jpg"
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
     }
   ]
 }
