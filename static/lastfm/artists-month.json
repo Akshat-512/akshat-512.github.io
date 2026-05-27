@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-26T23:32:35.792Z",
+  "generated_at": "2026-05-27T04:47:06.800Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -10,15 +10,15 @@
       "image": ""
     },
     {
-      "name": "Rolo Tomassi",
+      "name": "Racing Mount Pleasant",
       "plays": 46,
-      "url": "https://www.last.fm/music/Rolo+Tomassi",
+      "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
       "image": ""
     },
     {
-      "name": "Racing Mount Pleasant",
-      "plays": 44,
-      "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
+      "name": "Rolo Tomassi",
+      "plays": 46,
+      "url": "https://www.last.fm/music/Rolo+Tomassi",
       "image": ""
     },
     {
@@ -31,7 +31,7 @@
       "name": "JPEGMAFIA",
       "plays": 32,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/bb36f2468e90f1a81ba83b87a352568e.jpg"
+      "image": ""
     },
     {
       "name": "Deafheaven",
@@ -43,13 +43,13 @@
       "name": "Paramore",
       "plays": 24,
       "url": "https://www.last.fm/music/Paramore",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/2b667b3a1f0dd3feb0106ce83dd84f74.jpg"
+      "image": ""
     },
     {
       "name": "Elliott Smith",
       "plays": 22,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
+      "image": ""
     }
   ]
 }
