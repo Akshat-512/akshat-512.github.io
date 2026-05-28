@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-27T23:37:59.280Z",
+  "generated_at": "2026-05-28T04:38:01.794Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -17,7 +17,7 @@
     },
     {
       "name": "Rolo Tomassi",
-      "plays": 46,
+      "plays": 45,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
       "image": ""
     },
@@ -31,19 +31,19 @@
       "name": "JPEGMAFIA",
       "plays": 36,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/bb36f2468e90f1a81ba83b87a352568e.jpg"
-    },
-    {
-      "name": "Deafheaven",
-      "plays": 24,
-      "url": "https://www.last.fm/music/Deafheaven",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/59a7a02704b32259e665a20e1aa81973.jpg"
+      "image": ""
     },
     {
       "name": "Paramore",
       "plays": 24,
       "url": "https://www.last.fm/music/Paramore",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/2b667b3a1f0dd3feb0106ce83dd84f74.jpg"
+    },
+    {
+      "name": "Deafheaven",
+      "plays": 22,
+      "url": "https://www.last.fm/music/Deafheaven",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/59a7a02704b32259e665a20e1aa81973.jpg"
     },
     {
       "name": "Elliott Smith",
