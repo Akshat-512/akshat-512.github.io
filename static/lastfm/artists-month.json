@@ -1,13 +1,13 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-28T17:02:30.159Z",
+  "generated_at": "2026-05-28T19:44:42.067Z",
   "artists": [
     {
       "name": "Black Country, New Road",
       "plays": 58,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/4de315afffc275925d7af8fe3126ca23.jpg"
+      "image": ""
     },
     {
       "name": "Racing Mount Pleasant",
@@ -17,7 +17,7 @@
     },
     {
       "name": "Rolo Tomassi",
-      "plays": 44,
+      "plays": 43,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
       "image": ""
     },
@@ -25,7 +25,7 @@
       "name": "American Football",
       "plays": 37,
       "url": "https://www.last.fm/music/American+Football",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
     },
     {
       "name": "JPEGMAFIA",
@@ -46,10 +46,10 @@
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
     },
     {
-      "name": "Deafheaven",
-      "plays": 21,
-      "url": "https://www.last.fm/music/Deafheaven",
-      "image": ""
+      "name": "Sun Kil Moon",
+      "plays": 19,
+      "url": "https://www.last.fm/music/Sun+Kil+Moon",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/227ebfaf2a8f49c4a31f6c84aebde289.jpg"
     }
   ]
 }
