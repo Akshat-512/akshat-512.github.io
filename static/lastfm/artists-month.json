@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-29T08:51:46.679Z",
+  "generated_at": "2026-05-29T12:27:06.950Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -43,7 +43,7 @@
       "name": "Paramore",
       "plays": 24,
       "url": "https://www.last.fm/music/Paramore",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/db95f669a6095a436c3e72e1e2855541.jpg"
+      "image": ""
     },
     {
       "name": "Sun Kil Moon",
