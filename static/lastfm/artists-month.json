@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-30T15:35:18.002Z",
+  "generated_at": "2026-05-30T17:19:47.534Z",
   "artists": [
     {
       "name": "Elliott Smith",
@@ -25,7 +25,7 @@
       "name": "Rolo Tomassi",
       "plays": 44,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a7cfc5e4fe4e4a8869cabd631f578dcc.jpg"
+      "image": ""
     },
     {
       "name": "American Football",
