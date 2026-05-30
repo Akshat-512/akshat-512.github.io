@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-30T11:45:23.627Z",
+  "generated_at": "2026-05-30T14:03:42.986Z",
   "artists": [
     {
       "name": "Elliott Smith",
@@ -13,7 +13,7 @@
       "name": "Black Country, New Road",
       "plays": 62,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/4de315afffc275925d7af8fe3126ca23.jpg"
+      "image": ""
     },
     {
       "name": "Racing Mount Pleasant",
@@ -35,7 +35,7 @@
     },
     {
       "name": "JPEGMAFIA",
-      "plays": 35,
+      "plays": 34,
       "url": "https://www.last.fm/music/JPEGMAFIA",
       "image": ""
     },
