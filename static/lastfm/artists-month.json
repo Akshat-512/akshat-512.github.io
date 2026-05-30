@@ -1,19 +1,19 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-30T04:16:23.380Z",
+  "generated_at": "2026-05-30T07:20:32.266Z",
   "artists": [
     {
       "name": "Black Country, New Road",
       "plays": 62,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/4de315afffc275925d7af8fe3126ca23.jpg"
     },
     {
       "name": "Elliott Smith",
       "plays": 62,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
     },
     {
       "name": "Racing Mount Pleasant",
@@ -25,17 +25,17 @@
       "name": "Rolo Tomassi",
       "plays": 44,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a7cfc5e4fe4e4a8869cabd631f578dcc.jpg"
     },
     {
       "name": "American Football",
       "plays": 37,
       "url": "https://www.last.fm/music/American+Football",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
     },
     {
       "name": "JPEGMAFIA",
-      "plays": 36,
+      "plays": 34,
       "url": "https://www.last.fm/music/JPEGMAFIA",
       "image": ""
     },
@@ -43,13 +43,13 @@
       "name": "Paramore",
       "plays": 24,
       "url": "https://www.last.fm/music/Paramore",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/db95f669a6095a436c3e72e1e2855541.jpg"
     },
     {
       "name": "Sun Kil Moon",
       "plays": 22,
       "url": "https://www.last.fm/music/Sun+Kil+Moon",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/227ebfaf2a8f49c4a31f6c84aebde289.jpg"
     }
   ]
 }
