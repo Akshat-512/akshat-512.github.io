@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-31T12:20:10.161Z",
+  "generated_at": "2026-05-31T14:55:54.270Z",
   "artists": [
     {
       "name": "Elliott Smith",
@@ -35,7 +35,7 @@
     },
     {
       "name": "Paramore",
-      "plays": 25,
+      "plays": 27,
       "url": "https://www.last.fm/music/Paramore",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/db95f669a6095a436c3e72e1e2855541.jpg"
     },
@@ -49,7 +49,7 @@
       "name": "Nirvana",
       "plays": 19,
       "url": "https://www.last.fm/music/Nirvana",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/0ecbac969bac34f83cb7ed5bbea1c7ee.jpg"
     }
   ]
 }
