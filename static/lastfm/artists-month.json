@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-31T21:14:40.044Z",
+  "generated_at": "2026-05-31T22:13:58.430Z",
   "artists": [
     {
       "name": "Elliott Smith",
@@ -35,21 +35,21 @@
     },
     {
       "name": "Paramore",
-      "plays": 28,
+      "plays": 29,
       "url": "https://www.last.fm/music/Paramore",
       "image": ""
     },
     {
       "name": "American Football",
-      "plays": 23,
+      "plays": 24,
       "url": "https://www.last.fm/music/American+Football",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
     },
     {
-      "name": "Nirvana",
+      "name": "Beach House",
       "plays": 19,
-      "url": "https://www.last.fm/music/Nirvana",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/0ecbac969bac34f83cb7ed5bbea1c7ee.jpg"
+      "url": "https://www.last.fm/music/Beach+House",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
     }
   ]
 }
