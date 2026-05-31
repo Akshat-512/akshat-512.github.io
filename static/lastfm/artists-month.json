@@ -1,13 +1,13 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-30T23:14:00.524Z",
+  "generated_at": "2026-05-31T00:14:18.186Z",
   "artists": [
     {
       "name": "Elliott Smith",
       "plays": 64,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
+      "image": ""
     },
     {
       "name": "Black Country, New Road",
@@ -31,7 +31,7 @@
       "name": "JPEGMAFIA",
       "plays": 35,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d3d2e045ecc3fe61b175c7d3f3df9a4b.jpg"
+      "image": ""
     },
     {
       "name": "American Football",
@@ -43,7 +43,7 @@
       "name": "Paramore",
       "plays": 25,
       "url": "https://www.last.fm/music/Paramore",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/db95f669a6095a436c3e72e1e2855541.jpg"
+      "image": ""
     },
     {
       "name": "Sun Kil Moon",
