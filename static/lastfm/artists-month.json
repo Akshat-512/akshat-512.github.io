@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-31T08:22:11.936Z",
+  "generated_at": "2026-05-31T11:05:59.176Z",
   "artists": [
     {
       "name": "Elliott Smith",
@@ -19,7 +19,7 @@
       "name": "Racing Mount Pleasant",
       "plays": 56,
       "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/8de0f1259d3c898669fcb1a6d3978433.jpg"
+      "image": ""
     },
     {
       "name": "Rolo Tomassi",
@@ -31,7 +31,7 @@
       "name": "JPEGMAFIA",
       "plays": 35,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d3d2e045ecc3fe61b175c7d3f3df9a4b.jpg"
+      "image": ""
     },
     {
       "name": "Paramore",
@@ -43,13 +43,13 @@
       "name": "American Football",
       "plays": 23,
       "url": "https://www.last.fm/music/American+Football",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
+      "image": ""
     },
     {
       "name": "Nirvana",
       "plays": 19,
       "url": "https://www.last.fm/music/Nirvana",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/0ecbac969bac34f83cb7ed5bbea1c7ee.jpg"
+      "image": ""
     }
   ]
 }
