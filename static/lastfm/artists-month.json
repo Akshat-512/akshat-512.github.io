@@ -1,13 +1,13 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-31T18:16:35.454Z",
+  "generated_at": "2026-05-31T19:41:37.340Z",
   "artists": [
     {
       "name": "Elliott Smith",
       "plays": 64,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
+      "image": ""
     },
     {
       "name": "Black Country, New Road",
@@ -23,13 +23,13 @@
     },
     {
       "name": "Rolo Tomassi",
-      "plays": 44,
+      "plays": 45,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a7cfc5e4fe4e4a8869cabd631f578dcc.jpg"
+      "image": ""
     },
     {
       "name": "JPEGMAFIA",
-      "plays": 35,
+      "plays": 36,
       "url": "https://www.last.fm/music/JPEGMAFIA",
       "image": ""
     },
@@ -37,19 +37,19 @@
       "name": "Paramore",
       "plays": 28,
       "url": "https://www.last.fm/music/Paramore",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/db95f669a6095a436c3e72e1e2855541.jpg"
     },
     {
       "name": "American Football",
       "plays": 23,
       "url": "https://www.last.fm/music/American+Football",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
+      "image": ""
     },
     {
       "name": "Nirvana",
       "plays": 19,
       "url": "https://www.last.fm/music/Nirvana",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/0ecbac969bac34f83cb7ed5bbea1c7ee.jpg"
+      "image": ""
     }
   ]
 }
