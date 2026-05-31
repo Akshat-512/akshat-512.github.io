@@ -1,13 +1,13 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-05-31T00:14:18.186Z",
+  "generated_at": "2026-05-31T04:51:37.282Z",
   "artists": [
     {
       "name": "Elliott Smith",
       "plays": 64,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
     },
     {
       "name": "Black Country, New Road",
@@ -19,37 +19,37 @@
       "name": "Racing Mount Pleasant",
       "plays": 56,
       "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/8de0f1259d3c898669fcb1a6d3978433.jpg"
     },
     {
       "name": "Rolo Tomassi",
       "plays": 44,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a7cfc5e4fe4e4a8869cabd631f578dcc.jpg"
     },
     {
       "name": "JPEGMAFIA",
       "plays": 35,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": ""
-    },
-    {
-      "name": "American Football",
-      "plays": 34,
-      "url": "https://www.last.fm/music/American+Football",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d3d2e045ecc3fe61b175c7d3f3df9a4b.jpg"
     },
     {
       "name": "Paramore",
       "plays": 25,
       "url": "https://www.last.fm/music/Paramore",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/db95f669a6095a436c3e72e1e2855541.jpg"
     },
     {
-      "name": "Sun Kil Moon",
-      "plays": 21,
-      "url": "https://www.last.fm/music/Sun+Kil+Moon",
-      "image": ""
+      "name": "American Football",
+      "plays": 23,
+      "url": "https://www.last.fm/music/American+Football",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
+    },
+    {
+      "name": "Nirvana",
+      "plays": 19,
+      "url": "https://www.last.fm/music/Nirvana",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/0ecbac969bac34f83cb7ed5bbea1c7ee.jpg"
     }
   ]
 }
