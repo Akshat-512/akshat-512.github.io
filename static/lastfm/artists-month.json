@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-01T21:03:57.311Z",
+  "generated_at": "2026-06-01T23:09:14.556Z",
   "artists": [
     {
       "name": "Elliott Smith",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Black Country, New Road",
-      "plays": 62,
+      "plays": 63,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/4de315afffc275925d7af8fe3126ca23.jpg"
     },
@@ -41,15 +41,15 @@
     },
     {
       "name": "Beach House",
-      "plays": 19,
+      "plays": 23,
       "url": "https://www.last.fm/music/Beach+House",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
     },
     {
-      "name": "Nirvana",
-      "plays": 19,
-      "url": "https://www.last.fm/music/Nirvana",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/0ecbac969bac34f83cb7ed5bbea1c7ee.jpg"
+      "name": "Tame Impala",
+      "plays": 20,
+      "url": "https://www.last.fm/music/Tame+Impala",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a5c7234e8e029778549ad3e2b9d6b849.jpg"
     }
   ]
 }
