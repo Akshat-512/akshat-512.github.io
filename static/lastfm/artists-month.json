@@ -1,11 +1,11 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-02T01:36:01.648Z",
+  "generated_at": "2026-06-02T06:56:32.191Z",
   "artists": [
     {
       "name": "Elliott Smith",
-      "plays": 64,
+      "plays": 65,
       "url": "https://www.last.fm/music/Elliott+Smith",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
     },
@@ -25,13 +25,13 @@
       "name": "Rolo Tomassi",
       "plays": 45,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a7cfc5e4fe4e4a8869cabd631f578dcc.jpg"
+      "image": ""
     },
     {
       "name": "JPEGMAFIA",
       "plays": 37,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d3d2e045ecc3fe61b175c7d3f3df9a4b.jpg"
     },
     {
       "name": "Paramore",
@@ -41,7 +41,7 @@
     },
     {
       "name": "Beach House",
-      "plays": 23,
+      "plays": 24,
       "url": "https://www.last.fm/music/Beach+House",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
     },
