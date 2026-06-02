@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-01T23:09:14.556Z",
+  "generated_at": "2026-06-02T01:36:01.648Z",
   "artists": [
     {
       "name": "Elliott Smith",
@@ -31,7 +31,7 @@
       "name": "JPEGMAFIA",
       "plays": 37,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/55d10df0358c0ae7e40399271e37866b.jpg"
+      "image": ""
     },
     {
       "name": "Paramore",
