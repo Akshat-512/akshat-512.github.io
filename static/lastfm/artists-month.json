@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-03T01:46:15.282Z",
+  "generated_at": "2026-06-03T07:07:17.452Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -13,11 +13,11 @@
       "name": "Elliott Smith",
       "plays": 65,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
+      "image": ""
     },
     {
       "name": "Racing Mount Pleasant",
-      "plays": 63,
+      "plays": 64,
       "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
       "image": ""
     },
@@ -29,7 +29,7 @@
     },
     {
       "name": "Rolo Tomassi",
-      "plays": 36,
+      "plays": 35,
       "url": "https://www.last.fm/music/Rolo+Tomassi",
       "image": ""
     },
