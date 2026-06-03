@@ -1,13 +1,13 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-02T20:18:31.791Z",
+  "generated_at": "2026-06-03T01:46:15.282Z",
   "artists": [
     {
       "name": "Black Country, New Road",
       "plays": 68,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/4de315afffc275925d7af8fe3126ca23.jpg"
+      "image": ""
     },
     {
       "name": "Elliott Smith",
@@ -17,14 +17,8 @@
     },
     {
       "name": "Racing Mount Pleasant",
-      "plays": 60,
+      "plays": 63,
       "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
-      "image": ""
-    },
-    {
-      "name": "Rolo Tomassi",
-      "plays": 43,
-      "url": "https://www.last.fm/music/Rolo+Tomassi",
       "image": ""
     },
     {
@@ -32,6 +26,12 @@
       "plays": 37,
       "url": "https://www.last.fm/music/JPEGMAFIA",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d3d2e045ecc3fe61b175c7d3f3df9a4b.jpg"
+    },
+    {
+      "name": "Rolo Tomassi",
+      "plays": 36,
+      "url": "https://www.last.fm/music/Rolo+Tomassi",
+      "image": ""
     },
     {
       "name": "Paramore",
@@ -49,7 +49,7 @@
       "name": "Nirvana",
       "plays": 19,
       "url": "https://www.last.fm/music/Nirvana",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/875f3d2be87ba3d4ea604813d941a9ef.jpg"
     }
   ]
 }
