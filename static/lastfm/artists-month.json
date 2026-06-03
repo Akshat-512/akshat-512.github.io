@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-03T20:28:48.338Z",
+  "generated_at": "2026-06-03T23:14:16.126Z",
   "artists": [
     {
       "name": "Black Country, New Road",
@@ -19,25 +19,19 @@
       "name": "Elliott Smith",
       "plays": 65,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
     },
     {
       "name": "JPEGMAFIA",
       "plays": 37,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": ""
-    },
-    {
-      "name": "Rolo Tomassi",
-      "plays": 34,
-      "url": "https://www.last.fm/music/Rolo+Tomassi",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d3d2e045ecc3fe61b175c7d3f3df9a4b.jpg"
     },
     {
       "name": "Paramore",
       "plays": 30,
       "url": "https://www.last.fm/music/Paramore",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/27a4da2ae209bfcdfe93fa71526e9ad5.jpg"
     },
     {
       "name": "Beach House",
@@ -46,10 +40,16 @@
       "image": ""
     },
     {
+      "name": "Rolo Tomassi",
+      "plays": 24,
+      "url": "https://www.last.fm/music/Rolo+Tomassi",
+      "image": ""
+    },
+    {
       "name": "Nirvana",
       "plays": 19,
       "url": "https://www.last.fm/music/Nirvana",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/875f3d2be87ba3d4ea604813d941a9ef.jpg"
+      "image": ""
     }
   ]
 }
