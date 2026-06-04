@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-04T10:44:21.403Z",
+  "generated_at": "2026-06-04T14:10:15.712Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -25,7 +25,7 @@
       "name": "JPEGMAFIA",
       "plays": 37,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d3d2e045ecc3fe61b175c7d3f3df9a4b.jpg"
     },
     {
       "name": "Paramore",
@@ -37,7 +37,7 @@
       "name": "Beach House",
       "plays": 25,
       "url": "https://www.last.fm/music/Beach+House",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
+      "image": ""
     },
     {
       "name": "Rolo Tomassi",
