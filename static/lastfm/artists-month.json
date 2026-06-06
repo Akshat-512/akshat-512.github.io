@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-06T15:39:27.369Z",
+  "generated_at": "2026-06-06T17:34:19.348Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -37,7 +37,7 @@
       "name": "Beach House",
       "plays": 25,
       "url": "https://www.last.fm/music/Beach+House",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
     },
     {
       "name": "Nirvana",
