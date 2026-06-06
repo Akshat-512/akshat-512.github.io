@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-06T19:46:03.601Z",
+  "generated_at": "2026-06-06T21:17:05.435Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -31,7 +31,7 @@
       "name": "Paramore",
       "plays": 30,
       "url": "https://www.last.fm/music/Paramore",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/5ec8ec75d02391d704d151d7c5a39e67.jpg"
     },
     {
       "name": "Beach House",
