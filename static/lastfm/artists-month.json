@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-05T22:35:03.507Z",
+  "generated_at": "2026-06-06T00:18:47.124Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -49,7 +49,7 @@
       "name": "Sun Kil Moon",
       "plays": 19,
       "url": "https://www.last.fm/music/Sun+Kil+Moon",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/227ebfaf2a8f49c4a31f6c84aebde289.jpg"
     }
   ]
 }
