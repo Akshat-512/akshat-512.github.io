@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-07T00:16:05.525Z",
+  "generated_at": "2026-06-07T04:56:57.377Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -13,7 +13,7 @@
       "name": "Black Country, New Road",
       "plays": 68,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/4de315afffc275925d7af8fe3126ca23.jpg"
     },
     {
       "name": "Elliott Smith",
@@ -29,7 +29,7 @@
     },
     {
       "name": "Paramore",
-      "plays": 30,
+      "plays": 29,
       "url": "https://www.last.fm/music/Paramore",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/5ec8ec75d02391d704d151d7c5a39e67.jpg"
     },
@@ -46,10 +46,10 @@
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/875f3d2be87ba3d4ea604813d941a9ef.jpg"
     },
     {
-      "name": "Tame Impala",
-      "plays": 19,
-      "url": "https://www.last.fm/music/Tame+Impala",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a5c7234e8e029778549ad3e2b9d6b849.jpg"
+      "name": "Sun Kil Moon",
+      "plays": 18,
+      "url": "https://www.last.fm/music/Sun+Kil+Moon",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/227ebfaf2a8f49c4a31f6c84aebde289.jpg"
     }
   ]
 }
