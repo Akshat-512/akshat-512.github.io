@@ -1,13 +1,13 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-06T22:19:00.733Z",
+  "generated_at": "2026-06-07T00:16:05.525Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
       "plays": 78,
       "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/8de0f1259d3c898669fcb1a6d3978433.jpg"
     },
     {
       "name": "Black Country, New Road",
@@ -31,13 +31,13 @@
       "name": "Paramore",
       "plays": 30,
       "url": "https://www.last.fm/music/Paramore",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/5ec8ec75d02391d704d151d7c5a39e67.jpg"
     },
     {
       "name": "Beach House",
       "plays": 25,
       "url": "https://www.last.fm/music/Beach+House",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
     },
     {
       "name": "Nirvana",
@@ -49,7 +49,7 @@
       "name": "Tame Impala",
       "plays": 19,
       "url": "https://www.last.fm/music/Tame+Impala",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a5c7234e8e029778549ad3e2b9d6b849.jpg"
     }
   ]
 }
