@@ -1,11 +1,11 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-08T14:21:40.468Z",
+  "generated_at": "2026-06-08T18:08:01.354Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
-      "plays": 88,
+      "plays": 89,
       "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/8de0f1259d3c898669fcb1a6d3978433.jpg"
     },
@@ -19,25 +19,25 @@
       "name": "Elliott Smith",
       "plays": 52,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
     },
     {
       "name": "JPEGMAFIA",
       "plays": 35,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d73e74544f30e669da9d4611b52f5062.jpg"
+      "image": ""
     },
     {
       "name": "Paramore",
-      "plays": 33,
+      "plays": 34,
       "url": "https://www.last.fm/music/Paramore",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/5ec8ec75d02391d704d151d7c5a39e67.jpg"
+      "image": ""
     },
     {
       "name": "Beach House",
       "plays": 25,
       "url": "https://www.last.fm/music/Beach+House",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
+      "image": ""
     },
     {
       "name": "Nirvana",
