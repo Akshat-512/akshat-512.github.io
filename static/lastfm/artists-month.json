@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-08T05:00:42.538Z",
+  "generated_at": "2026-06-08T09:54:48.083Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -25,7 +25,7 @@
       "name": "JPEGMAFIA",
       "plays": 35,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d3d2e045ecc3fe61b175c7d3f3df9a4b.jpg"
     },
     {
       "name": "Paramore",
@@ -43,13 +43,13 @@
       "name": "Nirvana",
       "plays": 19,
       "url": "https://www.last.fm/music/Nirvana",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/875f3d2be87ba3d4ea604813d941a9ef.jpg"
     },
     {
       "name": "American Football",
-      "plays": 17,
+      "plays": 18,
       "url": "https://www.last.fm/music/American+Football",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/3a30a2385c669512b3ba53ec99ff39e0.jpg"
     }
   ]
 }
