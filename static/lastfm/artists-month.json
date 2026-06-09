@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-09T18:20:31.795Z",
+  "generated_at": "2026-06-09T21:08:51.423Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Black Country, New Road",
-      "plays": 69,
+      "plays": 68,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
       "image": ""
     },
@@ -23,7 +23,7 @@
     },
     {
       "name": "JPEGMAFIA",
-      "plays": 35,
+      "plays": 36,
       "url": "https://www.last.fm/music/JPEGMAFIA",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/5b4bce4663f3f6e2130776eaa2da8168.jpg"
     },
@@ -46,10 +46,10 @@
       "image": ""
     },
     {
-      "name": "Sun Kil Moon",
+      "name": "Pink Floyd",
       "plays": 18,
-      "url": "https://www.last.fm/music/Sun+Kil+Moon",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/227ebfaf2a8f49c4a31f6c84aebde289.jpg"
+      "url": "https://www.last.fm/music/Pink+Floyd",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d4fce21aa33d32590a2984d1c4278920.jpg"
     }
   ]
 }
