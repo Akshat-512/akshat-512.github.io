@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-10T14:28:55.932Z",
+  "generated_at": "2026-06-10T18:09:02.040Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -13,7 +13,7 @@
       "name": "Black Country, New Road",
       "plays": 65,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/1084b9e8e7f6d53d0cd1a361ff4fbba3.jpg"
     },
     {
       "name": "Elliott Smith",
@@ -37,13 +37,13 @@
       "name": "Beach House",
       "plays": 25,
       "url": "https://www.last.fm/music/Beach+House",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/51b390130a6d1cc53d7f1bd57cbcbd34.jpg"
+      "image": ""
     },
     {
       "name": "Pink Floyd",
       "plays": 22,
       "url": "https://www.last.fm/music/Pink+Floyd",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/303a9e49a9473bd76ea431c6d44070f9.jpg"
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d4fce21aa33d32590a2984d1c4278920.jpg"
     },
     {
       "name": "Nirvana",
