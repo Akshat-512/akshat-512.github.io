@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-11T16:20:12.861Z",
+  "generated_at": "2026-06-11T19:44:35.595Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Black Country, New Road",
-      "plays": 65,
+      "plays": 66,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
       "image": ""
     },
@@ -37,11 +37,11 @@
       "name": "Beach House",
       "plays": 32,
       "url": "https://www.last.fm/music/Beach+House",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
     },
     {
       "name": "Pink Floyd",
-      "plays": 27,
+      "plays": 25,
       "url": "https://www.last.fm/music/Pink+Floyd",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/303a9e49a9473bd76ea431c6d44070f9.jpg"
     },
