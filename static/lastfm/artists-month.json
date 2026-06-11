@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-11T01:38:05.708Z",
+  "generated_at": "2026-06-11T07:04:02.559Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -17,7 +17,7 @@
     },
     {
       "name": "Elliott Smith",
-      "plays": 51,
+      "plays": 52,
       "url": "https://www.last.fm/music/Elliott+Smith",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
     },
@@ -35,9 +35,9 @@
     },
     {
       "name": "Beach House",
-      "plays": 29,
+      "plays": 30,
       "url": "https://www.last.fm/music/Beach+House",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
+      "image": ""
     },
     {
       "name": "Pink Floyd",
