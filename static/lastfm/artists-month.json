@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-12T22:00:11.137Z",
+  "generated_at": "2026-06-12T23:48:01.278Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -19,7 +19,7 @@
       "name": "Elliott Smith",
       "plays": 53,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
+      "image": ""
     },
     {
       "name": "Beach House",
