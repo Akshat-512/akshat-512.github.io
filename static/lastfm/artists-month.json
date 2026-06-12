@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-11T23:53:43.877Z",
+  "generated_at": "2026-06-12T05:01:27.422Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -19,7 +19,7 @@
       "name": "Elliott Smith",
       "plays": 52,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
+      "image": ""
     },
     {
       "name": "JPEGMAFIA",
@@ -31,7 +31,7 @@
       "name": "Paramore",
       "plays": 35,
       "url": "https://www.last.fm/music/Paramore",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/5ec8ec75d02391d704d151d7c5a39e67.jpg"
+      "image": ""
     },
     {
       "name": "Beach House",
@@ -41,7 +41,7 @@
     },
     {
       "name": "Pink Floyd",
-      "plays": 25,
+      "plays": 24,
       "url": "https://www.last.fm/music/Pink+Floyd",
       "image": ""
     },
@@ -49,7 +49,7 @@
       "name": "Nirvana",
       "plays": 19,
       "url": "https://www.last.fm/music/Nirvana",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/875f3d2be87ba3d4ea604813d941a9ef.jpg"
+      "image": ""
     }
   ]
 }
