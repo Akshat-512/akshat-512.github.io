@@ -1,13 +1,13 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-12T19:21:12.359Z",
+  "generated_at": "2026-06-12T22:00:11.137Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
       "plays": 89,
       "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/8de0f1259d3c898669fcb1a6d3978433.jpg"
     },
     {
       "name": "Black Country, New Road",
@@ -17,39 +17,39 @@
     },
     {
       "name": "Elliott Smith",
-      "plays": 52,
+      "plays": 53,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
     },
     {
       "name": "Beach House",
-      "plays": 37,
+      "plays": 39,
       "url": "https://www.last.fm/music/Beach+House",
       "image": ""
     },
     {
       "name": "JPEGMAFIA",
-      "plays": 37,
+      "plays": 38,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d3d2e045ecc3fe61b175c7d3f3df9a4b.jpg"
     },
     {
       "name": "Paramore",
       "plays": 35,
       "url": "https://www.last.fm/music/Paramore",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/0a828201208dff7add85e4399306ef0a.jpg"
     },
     {
       "name": "Nirvana",
       "plays": 19,
       "url": "https://www.last.fm/music/Nirvana",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/875f3d2be87ba3d4ea604813d941a9ef.jpg"
     },
     {
       "name": "Pink Floyd",
       "plays": 18,
       "url": "https://www.last.fm/music/Pink+Floyd",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/303a9e49a9473bd76ea431c6d44070f9.jpg"
     }
   ]
 }
