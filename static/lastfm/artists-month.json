@@ -1,13 +1,13 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-14T09:55:28.569Z",
+  "generated_at": "2026-06-14T12:14:31.687Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
       "plays": 91,
       "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/8de0f1259d3c898669fcb1a6d3978433.jpg"
+      "image": ""
     },
     {
       "name": "Black Country, New Road",
@@ -25,13 +25,13 @@
       "name": "Beach House",
       "plays": 51,
       "url": "https://www.last.fm/music/Beach+House",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
     },
     {
       "name": "JPEGMAFIA",
       "plays": 38,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/5b4bce4663f3f6e2130776eaa2da8168.jpg"
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d3d2e045ecc3fe61b175c7d3f3df9a4b.jpg"
     },
     {
       "name": "Paramore",
