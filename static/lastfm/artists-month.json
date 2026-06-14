@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-14T12:14:31.687Z",
+  "generated_at": "2026-06-14T14:28:05.573Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -31,7 +31,7 @@
       "name": "JPEGMAFIA",
       "plays": 38,
       "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d3d2e045ecc3fe61b175c7d3f3df9a4b.jpg"
+      "image": ""
     },
     {
       "name": "Paramore",
