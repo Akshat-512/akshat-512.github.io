@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-15T21:48:35.857Z",
+  "generated_at": "2026-06-16T00:01:26.130Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -13,18 +13,12 @@
       "name": "Beach House",
       "plays": 75,
       "url": "https://www.last.fm/music/Beach+House",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
+      "image": ""
     },
     {
       "name": "Elliott Smith",
       "plays": 54,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
-    },
-    {
-      "name": "Black Country, New Road",
-      "plays": 38,
-      "url": "https://www.last.fm/music/Black+Country,+New+Road",
       "image": ""
     },
     {
@@ -37,13 +31,19 @@
       "name": "Paramore",
       "plays": 36,
       "url": "https://www.last.fm/music/Paramore",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/5ec8ec75d02391d704d151d7c5a39e67.jpg"
+      "image": ""
+    },
+    {
+      "name": "Black Country, New Road",
+      "plays": 35,
+      "url": "https://www.last.fm/music/Black+Country,+New+Road",
+      "image": ""
     },
     {
       "name": "Sun Kil Moon",
       "plays": 22,
       "url": "https://www.last.fm/music/Sun+Kil+Moon",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/227ebfaf2a8f49c4a31f6c84aebde289.jpg"
+      "image": ""
     },
     {
       "name": "Nirvana",
