@@ -1,19 +1,19 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-16T17:20:33.791Z",
+  "generated_at": "2026-06-16T21:18:42.864Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
-      "plays": 102,
+      "plays": 100,
       "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
       "image": ""
     },
     {
       "name": "Beach House",
-      "plays": 75,
+      "plays": 79,
       "url": "https://www.last.fm/music/Beach+House",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
     },
     {
       "name": "Elliott Smith",
@@ -29,13 +29,13 @@
     },
     {
       "name": "Black Country, New Road",
-      "plays": 34,
+      "plays": 26,
       "url": "https://www.last.fm/music/Black+Country,+New+Road",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/1084b9e8e7f6d53d0cd1a361ff4fbba3.jpg"
     },
     {
       "name": "Paramore",
-      "plays": 34,
+      "plays": 25,
       "url": "https://www.last.fm/music/Paramore",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/5ec8ec75d02391d704d151d7c5a39e67.jpg"
     },
