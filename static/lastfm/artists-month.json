@@ -1,17 +1,17 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-16T21:18:42.864Z",
+  "generated_at": "2026-06-16T23:46:55.805Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
       "plays": 100,
       "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/8de0f1259d3c898669fcb1a6d3978433.jpg"
     },
     {
       "name": "Beach House",
-      "plays": 79,
+      "plays": 78,
       "url": "https://www.last.fm/music/Beach+House",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
     },
@@ -35,7 +35,7 @@
     },
     {
       "name": "Paramore",
-      "plays": 25,
+      "plays": 23,
       "url": "https://www.last.fm/music/Paramore",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/5ec8ec75d02391d704d151d7c5a39e67.jpg"
     },
@@ -43,7 +43,7 @@
       "name": "Sun Kil Moon",
       "plays": 22,
       "url": "https://www.last.fm/music/Sun+Kil+Moon",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/227ebfaf2a8f49c4a31f6c84aebde289.jpg"
     },
     {
       "name": "Nirvana",
