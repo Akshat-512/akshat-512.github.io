@@ -1,13 +1,13 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-18T07:04:46.766Z",
+  "generated_at": "2026-06-18T11:16:56.312Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
       "plays": 106,
       "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/8de0f1259d3c898669fcb1a6d3978433.jpg"
+      "image": ""
     },
     {
       "name": "Beach House",
@@ -43,7 +43,7 @@
       "name": "Sun Kil Moon",
       "plays": 23,
       "url": "https://www.last.fm/music/Sun+Kil+Moon",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/227ebfaf2a8f49c4a31f6c84aebde289.jpg"
+      "image": ""
     },
     {
       "name": "Pink Floyd",
