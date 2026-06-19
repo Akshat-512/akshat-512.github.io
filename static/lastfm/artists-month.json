@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-19T21:20:57.740Z",
+  "generated_at": "2026-06-19T23:13:27.667Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -13,13 +13,13 @@
       "name": "Beach House",
       "plays": 77,
       "url": "https://www.last.fm/music/Beach+House",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
+      "image": ""
     },
     {
       "name": "Elliott Smith",
       "plays": 54,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/5e038b1a901db3bc0225407b319d70a2.jpg"
+      "image": ""
     },
     {
       "name": "JPEGMAFIA",
@@ -31,7 +31,7 @@
       "name": "Nirvana",
       "plays": 28,
       "url": "https://www.last.fm/music/Nirvana",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/0ecbac969bac34f83cb7ed5bbea1c7ee.jpg"
+      "image": ""
     },
     {
       "name": "Black Country, New Road",
@@ -41,7 +41,7 @@
     },
     {
       "name": "Pink Floyd",
-      "plays": 20,
+      "plays": 22,
       "url": "https://www.last.fm/music/Pink+Floyd",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/303a9e49a9473bd76ea431c6d44070f9.jpg"
     },
@@ -49,7 +49,7 @@
       "name": "Sun Kil Moon",
       "plays": 20,
       "url": "https://www.last.fm/music/Sun+Kil+Moon",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/227ebfaf2a8f49c4a31f6c84aebde289.jpg"
+      "image": ""
     }
   ]
 }
