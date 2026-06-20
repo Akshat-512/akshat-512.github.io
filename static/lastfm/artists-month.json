@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-20T05:43:17.168Z",
+  "generated_at": "2026-06-20T09:36:57.360Z",
   "artists": [
     {
       "name": "Racing Mount Pleasant",
@@ -13,7 +13,7 @@
       "name": "Beach House",
       "plays": 77,
       "url": "https://www.last.fm/music/Beach+House",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
     },
     {
       "name": "Elliott Smith",
@@ -23,7 +23,7 @@
     },
     {
       "name": "JPEGMAFIA",
-      "plays": 36,
+      "plays": 33,
       "url": "https://www.last.fm/music/JPEGMAFIA",
       "image": ""
     },
@@ -43,7 +43,7 @@
       "name": "Pink Floyd",
       "plays": 22,
       "url": "https://www.last.fm/music/Pink+Floyd",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/303a9e49a9473bd76ea431c6d44070f9.jpg"
+      "image": ""
     },
     {
       "name": "Sun Kil Moon",
