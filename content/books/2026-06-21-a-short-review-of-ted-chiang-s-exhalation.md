@@ -1,0 +1,17 @@
++++
+title = "A short review of Ted Chiang's Exhalation"
+date = 2026-06-21
+draft = false
+[taxonomies]
+tags = []
++++
+
+As I collect my thoughts after completing the book, I’m at least sure of this by now - Ted Chiang is a master storyteller. I’m genuinely impressed by how the stories have come about. Each story in this collection is set in a hypothetical world only slightly different from ours. The worlds and premises of the stories are very intelligently and purposefully crafted to serve a single purpose - make us ponder upon questions of free will, morality, purpose and the human condition.
+
+Each story uses science as a backdrop, while posing much bigger questions along the way. For example, in What’s expected of us, there exists a device called a predictor that works in a way that the LED light on it always blinks before you press the button on it. It doesn’t matter when you’re doing it or how spontaneous your action is, the physical laws of the universe work in a way such that the blinking will always precede the pressing. It is mind bending to think about such a logically incoherent concept because it negates the existence of free will completely. But Ted pieces it together to convey that it is best for humans to make decisions assuming that they matter, despite the possibility of an indifferent, deterministic universe. He claims that that is how humanity has always moved forward.
+
+What actually strikes me the most about these stories was that they’re profoundly humanistic. Ted seems to be a staunch humanist, and most of the stories in the book revolve around the ramifications of extreme digital enmeshment and AI on the human condition. The lifecycle of software objects imagines a world where digital creatures called digients are synthesized using digital genomes. We’re exposed to the consequences of humans getting attached to digital beings when something as simple as a faulty software update threatens their being.
+
+One of the stories explores the concept of a life-log, a diary of your whole life. If tech gives us a way to record your life events as-they-occurred, will our sense of self still exist the way it does now? Since our memories are often personalised and not objective where the brain actively edits and trims out the most uncomfortable parts, would this change then make people more self reflective and mindful of their actions? Will our relationships improve then, or get worse? These are really interesting questions that are novel and genuinely thought provoking.
+
+Now while the topics that the stories revolve around might seem abstract sci-fi ideas, the truth is that they’re largely unthought of and under-explored at the moment, while also being highly relevant. Especially with the way tech is progressing today. The meta glasses, neuralink’s brain controller interface and large language models and most recently, multimodal world models are all real entities that resemble the elements used in these stories. It’s almost as if we’re moving further and further away from having known a world in which the most advanced tech doesn’t exist. It’s absurd how we’re closer to actually living through the ideas referenced in the book than them being mere figments of someone’s creative imagination. Ted Chiang’s vision is almost prophetic and instead of talking about the obvious, he centers his prose around topics that are fresh and endearing. Definitely an important book of the current times.
