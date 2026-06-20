@@ -9,7 +9,7 @@ body:
       label: Section
       description: Where should this post appear?
       options:
-        - articles
+        - essays
         - music
         - books
         - movies

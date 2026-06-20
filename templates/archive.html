@@ -1,6 +1,18 @@
 {% extends "base.html" %}
 
 {% block content %}
+  {% set articles = get_section(path="articles/_index.md") %}
+  {% set music = get_section(path="music/_index.md") %}
+  {% set books = get_section(path="books/_index.md") %}
+  {% set movies = get_section(path="movies/_index.md") %}
+  {% set combined_posts = articles.pages
+    | concat(with=music.pages)
+    | concat(with=books.pages)
+    | concat(with=movies.pages)
+    | sort(attribute="date")
+    | reverse
+  %}
+
   <section class="section-hero">
     <h1>{{ section.title }}</h1>
     {% if section.content %}
@@ -8,11 +20,10 @@
     {% endif %}
   </section>
 
-  {% set pages = paginator.pages | default(value=section.pages) %}
-  {% if pages | length > 0 %}
+  {% if combined_posts | length > 0 %}
     <section class="feed-panel feed-panel-wide">
       <div class="feed-list">
-        {% for page in pages %}
+        {% for page in combined_posts %}
           <article class="feed-item">
             <div class="feed-rank">
               {% if loop.index < 10 %}0{{ loop.index }}{% else %}{{ loop.index }}{% endif %}
@@ -38,15 +49,7 @@
         {% endfor %}
       </div>
     </section>
-    {% if paginator %}
-      <nav class="pager" aria-label="Pagination">
-        {% if paginator.previous %}
-          <a class="button button-secondary" href="{{ paginator.previous }}">Newer</a>
-        {% endif %}
-        {% if paginator.next %}
-          <a class="button button-secondary" href="{{ paginator.next }}">Older</a>
-        {% endif %}
-      </nav>
-    {% endif %}
+  {% else %}
+    <p class="empty-state">No posts yet.</p>
   {% endif %}
 {% endblock %}

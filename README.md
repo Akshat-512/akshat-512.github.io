@@ -19,6 +19,29 @@ Examples:
 
 Posts are created in `content/<section>/` with a date-prefixed filename.
 
+Add a link:
+1. Open `content/links/_index.md`.
+2. Add an entry inside `[extra] links = [...]`.
+3. Run `zola serve` to preview.
+
+Example:
+
+```toml
+[extra]
+links = [
+  {
+    title = "Example Essay",
+    url = "https://example.com/article",
+    type = "Essay",
+    what = "A short description of what the link is.",
+    why = "Why it is worth saving or recommending.",
+    context = "When someone should read, watch, or use it."
+  },
+]
+```
+
+Each link can use `title`, `url`, `type`, `what`, `why`, and `context`. Keep `title` and `url` filled in; the context fields are optional but make the Links page more useful.
+
 Publish from phone (simple UI):
 1. Open `<site-url>/blog/publish/` from your phone.
 2. Fill title, section, tags, and markdown content.

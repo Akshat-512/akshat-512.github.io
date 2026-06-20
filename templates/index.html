@@ -16,13 +16,12 @@
   <div class="home-grid">
     <aside class="home-column home-column-left" aria-label="Site introduction">
       <section class="intro-card">
-        <p class="eyebrow">Personal feed</p>
         <h1>Notes from a quieter corner of the web.</h1>
         <div class="intro-copy">
           {{ section.content | safe }}
         </div>
         <div class="button-row">
-          <a class="button button-primary" href="/articles/">Read latest</a>
+          <a class="button button-primary" href="/archive/">Read latest</a>
           <a class="button button-secondary" href="/blog/about/">About</a>
         </div>
       </section>
@@ -54,7 +53,7 @@
             <p class="eyebrow">New</p>
             <h2 id="feed-title">Latest writing</h2>
           </div>
-          <a class="feed-link" href="/articles/">Archive</a>
+          <a class="feed-link" href="/archive/">Archive</a>
         </div>
 
         {% if combined_posts | length > 0 %}

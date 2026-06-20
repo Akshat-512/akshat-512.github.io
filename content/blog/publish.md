@@ -11,7 +11,7 @@ Use this page to open a prefilled GitHub issue. Only posts opened by the reposit
     <input id="post-title" name="title" type="text" required maxlength="120" placeholder="Post title">
     <label for="post-section">Section</label>
     <select id="post-section" name="section" required>
-      <option value="articles">articles</option>
+      <option value="essays">essays</option>
       <option value="music">music</option>
       <option value="books">books</option>
       <option value="movies">movies</option>

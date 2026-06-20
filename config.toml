@@ -1,6 +1,6 @@
 base_url = "https://akshat-512.github.io/"
-title = "AKSHAT.LOG"
-description = "A small personal feed for music, films, books, and stray thoughts."
+title = "Akshat's Log"
+description = "A small personal feed for music, films, books, and thoughts on everything else I think about."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -24,7 +24,7 @@ light_theme = "everforest-light"
 list_pages = true
 
 header_nav = [
-    { name = "New", url = "/" },
+    { name = "Archive", url = "/archive/" },
     { name = "Essays", url = "/articles/" },
     { name = "Music", url = "/music/" },
     { name = "Movies", url = "/movies/" },

@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% set links = section.extra.links | default(value=[]) %}
+
+  <section class="section-hero">
+    <p class="eyebrow">Section</p>
+    <h1>{{ section.title }}</h1>
+  </section>
+
+  {% if section.content %}
+    <section class="link-context-panel">
+      <div class="section-intro">{{ section.content | safe }}</div>
+    </section>
+  {% endif %}
+
+  <section class="link-entry-list" aria-label="Saved links">
+    {% if links | length > 0 %}
+      {% for item in links %}
+        <article class="link-entry">
+          <div class="link-entry-header">
+            <div>
+              {% if item.type %}<p class="eyebrow">{{ item.type }}</p>{% endif %}
+              <h2>
+                <a href="{{ item.url | safe }}" target="_blank" rel="noopener">{{ item.title }}</a>
+              </h2>
+            </div>
+            <a class="feed-link" href="{{ item.url | safe }}" target="_blank" rel="noopener">Open</a>
+          </div>
+
+          <dl class="link-entry-context">
+            {% if item.what %}
+              <div>
+                <dt>What</dt>
+                <dd>{{ item.what }}</dd>
+              </div>
+            {% endif %}
+            {% if item.why %}
+              <div>
+                <dt>Why</dt>
+                <dd>{{ item.why }}</dd>
+              </div>
+            {% endif %}
+            {% if item.context %}
+              <div>
+                <dt>Context</dt>
+                <dd>{{ item.context }}</dd>
+              </div>
+            {% endif %}
+          </dl>
+        </article>
+      {% endfor %}
+    {% else %}
+      <article class="link-entry">
+        <p class="empty-state">No links yet.</p>
+      </article>
+    {% endif %}
+  </section>
+{% endblock %}

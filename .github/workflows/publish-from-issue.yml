@@ -97,7 +97,8 @@ jobs:
           fi
 
           case "$section" in
-            articles|music|books|movies) ;;
+            articles|essays) section_dir="articles" ;;
+            music|books|movies) section_dir="$section" ;;
             *) echo "Invalid section: $section"; exit 1 ;;
           esac
 
@@ -112,7 +113,7 @@ jobs:
           fi
 
           date="$(date +%Y-%m-%d)"
-          dir="content/${section}"
+          dir="content/${section_dir}"
           file="${dir}/${date}-${slug}.md"
           mkdir -p "$dir"
 
