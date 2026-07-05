@@ -1,55 +1,55 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-06-28T04:53:45.809Z",
+  "generated_at": "2026-07-05T04:32:01.308Z",
   "artists": [
     {
       "name": "Beach House",
-      "plays": 77,
+      "plays": 58,
       "url": "https://www.last.fm/music/Beach+House",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
-    },
-    {
-      "name": "Racing Mount Pleasant",
-      "plays": 62,
-      "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
-      "image": ""
-    },
-    {
-      "name": "Elliott Smith",
-      "plays": 52,
-      "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
     },
     {
       "name": "Leonard Cohen",
       "plays": 42,
       "url": "https://www.last.fm/music/Leonard+Cohen",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d36f0a80075ea368cbb21d4af41cf3a1.jpg"
+      "image": ""
+    },
+    {
+      "name": "Fred again..",
+      "plays": 38,
+      "url": "https://www.last.fm/music/Fred+again..",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/628b1390e9e64ef47510ba35ba8a7096.jpg"
+    },
+    {
+      "name": "Racing Mount Pleasant",
+      "plays": 37,
+      "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
+      "image": ""
     },
     {
       "name": "The Strokes",
-      "plays": 19,
+      "plays": 21,
       "url": "https://www.last.fm/music/The+Strokes",
       "image": "https://lastfm.freetls.fastly.net/i/u/ar0/ca8134e082b6b012434c8326f62be4ef.jpg"
     },
     {
-      "name": "Nirvana",
-      "plays": 17,
-      "url": "https://www.last.fm/music/Nirvana",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/0ecbac969bac34f83cb7ed5bbea1c7ee.jpg"
+      "name": "Himanshu",
+      "plays": 18,
+      "url": "https://www.last.fm/music/Himanshu",
+      "image": ""
     },
     {
-      "name": "Olivia Rodrigo",
+      "name": "Elliott Smith",
       "plays": 17,
-      "url": "https://www.last.fm/music/Olivia+Rodrigo",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/886d71490f92cd2f4c82f827457bf53a.jpg"
+      "url": "https://www.last.fm/music/Elliott+Smith",
+      "image": ""
     },
     {
-      "name": "Pink Floyd",
+      "name": "Green Park",
       "plays": 17,
-      "url": "https://www.last.fm/music/Pink+Floyd",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/dc7c2a82321b85f8dfae3f40e9922bcb.jpg"
+      "url": "https://www.last.fm/music/Green+Park",
+      "image": ""
     }
   ]
 }
