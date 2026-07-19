@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-07-12T04:00:17.566Z",
+  "generated_at": "2026-07-19T03:57:59.660Z",
   "artists": [
     {
       "name": "Elliott Smith",
@@ -11,45 +11,45 @@
     },
     {
       "name": "Green Park",
-      "plays": 57,
+      "plays": 60,
       "url": "https://www.last.fm/music/Green+Park",
       "image": ""
     },
     {
-      "name": "Beach House",
-      "plays": 50,
-      "url": "https://www.last.fm/music/Beach+House",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
-    },
-    {
       "name": "Fred again..",
-      "plays": 47,
+      "plays": 50,
       "url": "https://www.last.fm/music/Fred+again..",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/628b1390e9e64ef47510ba35ba8a7096.jpg"
+      "image": ""
     },
     {
       "name": "Leonard Cohen",
       "plays": 42,
       "url": "https://www.last.fm/music/Leonard+Cohen",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/d36f0a80075ea368cbb21d4af41cf3a1.jpg"
+      "image": ""
     },
     {
-      "name": "Racing Mount Pleasant",
-      "plays": 28,
-      "url": "https://www.last.fm/music/Racing+Mount+Pleasant",
+      "name": "The Strokes",
+      "plays": 22,
+      "url": "https://www.last.fm/music/The+Strokes",
       "image": ""
+    },
+    {
+      "name": "Deafheaven",
+      "plays": 20,
+      "url": "https://www.last.fm/music/Deafheaven",
+      "image": ""
+    },
+    {
+      "name": "The Beatles",
+      "plays": 19,
+      "url": "https://www.last.fm/music/The+Beatles",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/af2e80d20b3c01bf7992d389e40c619a.jpg"
     },
     {
       "name": "Himanshu",
       "plays": 18,
       "url": "https://www.last.fm/music/Himanshu",
       "image": ""
-    },
-    {
-      "name": "Olivia Rodrigo",
-      "plays": 18,
-      "url": "https://www.last.fm/music/Olivia+Rodrigo",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/886d71490f92cd2f4c82f827457bf53a.jpg"
     }
   ]
 }
