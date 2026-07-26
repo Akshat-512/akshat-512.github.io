@@ -1,54 +1,54 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-07-19T03:57:59.660Z",
+  "generated_at": "2026-07-26T03:57:50.143Z",
   "artists": [
     {
       "name": "Elliott Smith",
-      "plays": 85,
+      "plays": 81,
       "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
+      "image": ""
     },
     {
       "name": "Green Park",
-      "plays": 60,
+      "plays": 67,
       "url": "https://www.last.fm/music/Green+Park",
       "image": ""
     },
     {
       "name": "Fred again..",
-      "plays": 50,
+      "plays": 52,
       "url": "https://www.last.fm/music/Fred+again..",
       "image": ""
     },
     {
-      "name": "Leonard Cohen",
-      "plays": 42,
-      "url": "https://www.last.fm/music/Leonard+Cohen",
-      "image": ""
+      "name": "Deafheaven",
+      "plays": 31,
+      "url": "https://www.last.fm/music/Deafheaven",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/fe06fb1c9ef165050367a98c05960df5.jpg"
     },
     {
       "name": "The Strokes",
-      "plays": 22,
+      "plays": 23,
       "url": "https://www.last.fm/music/The+Strokes",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/ca8134e082b6b012434c8326f62be4ef.jpg"
     },
     {
-      "name": "Deafheaven",
+      "name": "Radiohead",
       "plays": 20,
-      "url": "https://www.last.fm/music/Deafheaven",
+      "url": "https://www.last.fm/music/Radiohead",
       "image": ""
     },
     {
-      "name": "The Beatles",
-      "plays": 19,
-      "url": "https://www.last.fm/music/The+Beatles",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/af2e80d20b3c01bf7992d389e40c619a.jpg"
+      "name": "Begum",
+      "plays": 14,
+      "url": "https://www.last.fm/music/Begum",
+      "image": ""
     },
     {
-      "name": "Himanshu",
-      "plays": 18,
-      "url": "https://www.last.fm/music/Himanshu",
+      "name": "Esha Tewari",
+      "plays": 14,
+      "url": "https://www.last.fm/music/Esha+Tewari",
       "image": ""
     }
   ]
