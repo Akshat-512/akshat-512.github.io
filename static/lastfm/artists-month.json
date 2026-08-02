@@ -1,7 +1,7 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-07-26T03:57:50.143Z",
+  "generated_at": "2026-08-02T03:55:45.356Z",
   "artists": [
     {
       "name": "Elliott Smith",
@@ -11,45 +11,45 @@
     },
     {
       "name": "Green Park",
-      "plays": 67,
+      "plays": 52,
       "url": "https://www.last.fm/music/Green+Park",
       "image": ""
     },
     {
-      "name": "Fred again..",
-      "plays": 52,
-      "url": "https://www.last.fm/music/Fred+again..",
+      "name": "Bob Dylan",
+      "plays": 30,
+      "url": "https://www.last.fm/music/Bob+Dylan",
       "image": ""
     },
     {
       "name": "Deafheaven",
-      "plays": 31,
+      "plays": 30,
       "url": "https://www.last.fm/music/Deafheaven",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/fe06fb1c9ef165050367a98c05960df5.jpg"
+      "image": ""
+    },
+    {
+      "name": "Peter Cat Recording Co.",
+      "plays": 28,
+      "url": "https://www.last.fm/music/Peter+Cat+Recording+Co.",
+      "image": ""
     },
     {
       "name": "The Strokes",
-      "plays": 23,
+      "plays": 24,
       "url": "https://www.last.fm/music/The+Strokes",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/ca8134e082b6b012434c8326f62be4ef.jpg"
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/304587494c2a6243c74188aecf931891.jpg"
+    },
+    {
+      "name": "Fred again..",
+      "plays": 22,
+      "url": "https://www.last.fm/music/Fred+again..",
+      "image": ""
     },
     {
       "name": "Radiohead",
-      "plays": 20,
+      "plays": 21,
       "url": "https://www.last.fm/music/Radiohead",
-      "image": ""
-    },
-    {
-      "name": "Begum",
-      "plays": 14,
-      "url": "https://www.last.fm/music/Begum",
-      "image": ""
-    },
-    {
-      "name": "Esha Tewari",
-      "plays": 14,
-      "url": "https://www.last.fm/music/Esha+Tewari",
-      "image": ""
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/0ad534dfa02f492d917ff7d71e65bd7f.jpg"
     }
   ]
 }
