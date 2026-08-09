@@ -1,29 +1,17 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-08-02T03:55:45.356Z",
+  "generated_at": "2026-08-09T02:30:45.430Z",
   "artists": [
     {
-      "name": "Elliott Smith",
-      "plays": 81,
-      "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": ""
-    },
-    {
-      "name": "Green Park",
-      "plays": 52,
-      "url": "https://www.last.fm/music/Green+Park",
-      "image": ""
-    },
-    {
       "name": "Bob Dylan",
-      "plays": 30,
+      "plays": 76,
       "url": "https://www.last.fm/music/Bob+Dylan",
       "image": ""
     },
     {
       "name": "Deafheaven",
-      "plays": 30,
+      "plays": 28,
       "url": "https://www.last.fm/music/Deafheaven",
       "image": ""
     },
@@ -34,22 +22,34 @@
       "image": ""
     },
     {
-      "name": "The Strokes",
-      "plays": 24,
-      "url": "https://www.last.fm/music/The+Strokes",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/304587494c2a6243c74188aecf931891.jpg"
+      "name": "Elliott Smith",
+      "plays": 23,
+      "url": "https://www.last.fm/music/Elliott+Smith",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
     },
     {
-      "name": "Fred again..",
-      "plays": 22,
-      "url": "https://www.last.fm/music/Fred+again..",
+      "name": "Green Park",
+      "plays": 20,
+      "url": "https://www.last.fm/music/Green+Park",
       "image": ""
     },
     {
+      "name": "The Strokes",
+      "plays": 20,
+      "url": "https://www.last.fm/music/The+Strokes",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/b209d004080c6d468b80e07b7bf61a60.jpg"
+    },
+    {
       "name": "Radiohead",
-      "plays": 21,
+      "plays": 18,
       "url": "https://www.last.fm/music/Radiohead",
-      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/0ad534dfa02f492d917ff7d71e65bd7f.jpg"
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/5a1f93f08bb0f7f50068659f7633d2e8.jpg"
+    },
+    {
+      "name": "Fred again..",
+      "plays": 16,
+      "url": "https://www.last.fm/music/Fred+again..",
+      "image": ""
     }
   ]
 }
