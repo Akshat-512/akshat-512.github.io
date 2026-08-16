@@ -1,55 +1,55 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-08-09T02:30:45.430Z",
+  "generated_at": "2026-08-16T01:58:29.884Z",
   "artists": [
     {
       "name": "Bob Dylan",
-      "plays": 76,
+      "plays": 71,
       "url": "https://www.last.fm/music/Bob+Dylan",
-      "image": ""
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/fd10bfcbc74d346cc9d0acd48884c3f5.jpg"
     },
     {
       "name": "Deafheaven",
-      "plays": 28,
+      "plays": 25,
       "url": "https://www.last.fm/music/Deafheaven",
-      "image": ""
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/fe06fb1c9ef165050367a98c05960df5.jpg"
     },
     {
       "name": "Peter Cat Recording Co.",
-      "plays": 28,
+      "plays": 25,
       "url": "https://www.last.fm/music/Peter+Cat+Recording+Co.",
-      "image": ""
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/c4b3cbe163ca2fb32af4473d2616e3c8.jpg"
     },
     {
       "name": "Elliott Smith",
-      "plays": 23,
+      "plays": 18,
       "url": "https://www.last.fm/music/Elliott+Smith",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
-    },
-    {
-      "name": "Green Park",
-      "plays": 20,
-      "url": "https://www.last.fm/music/Green+Park",
-      "image": ""
-    },
-    {
-      "name": "The Strokes",
-      "plays": 20,
-      "url": "https://www.last.fm/music/The+Strokes",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/b209d004080c6d468b80e07b7bf61a60.jpg"
     },
     {
       "name": "Radiohead",
       "plays": 18,
       "url": "https://www.last.fm/music/Radiohead",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/5a1f93f08bb0f7f50068659f7633d2e8.jpg"
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/351f9b2397e475c24e3fc214efb50ade.jpg"
     },
     {
-      "name": "Fred again..",
+      "name": "The Strokes",
       "plays": 16,
-      "url": "https://www.last.fm/music/Fred+again..",
-      "image": ""
+      "url": "https://www.last.fm/music/The+Strokes",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/b209d004080c6d468b80e07b7bf61a60.jpg"
+    },
+    {
+      "name": "Olivia Rodrigo",
+      "plays": 13,
+      "url": "https://www.last.fm/music/Olivia+Rodrigo",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/3c858472ab182bb1505fd667c44f7fb8.jpg"
+    },
+    {
+      "name": "Pink Floyd",
+      "plays": 13,
+      "url": "https://www.last.fm/music/Pink+Floyd",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/5683885d21a9b1cd34b9becfcf93c682.jpg"
     }
   ]
 }
