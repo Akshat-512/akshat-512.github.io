@@ -1,55 +1,55 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-08-23T02:01:13.771Z",
+  "generated_at": "2026-08-30T05:28:19.216Z",
   "artists": [
     {
+      "name": "Dot.",
+      "plays": 83,
+      "url": "https://www.last.fm/music/Dot.",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/0fe03471aecd8db1f41a43334e916c76.jpg"
+    },
+    {
       "name": "Bob Dylan",
-      "plays": 67,
+      "plays": 72,
       "url": "https://www.last.fm/music/Bob+Dylan",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/84c443a2055e14630c724c9bf4920f4c.jpg"
     },
     {
-      "name": "Dot.",
-      "plays": 32,
-      "url": "https://www.last.fm/music/Dot.",
-      "image": ""
-    },
-    {
-      "name": "Peter Cat Recording Co.",
+      "name": "Aphex Twin",
       "plays": 26,
-      "url": "https://www.last.fm/music/Peter+Cat+Recording+Co.",
-      "image": ""
+      "url": "https://www.last.fm/music/Aphex+Twin",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/29fc387595d9ecb0561d62aa69cb4833.jpg"
     },
     {
       "name": "Olivia Rodrigo",
-      "plays": 21,
+      "plays": 25,
       "url": "https://www.last.fm/music/Olivia+Rodrigo",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/656005ff183a65d301a9f0cce97035e4.jpg"
-    },
-    {
-      "name": "Elliott Smith",
-      "plays": 20,
-      "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
-    },
-    {
-      "name": "Slow Pulp",
-      "plays": 16,
-      "url": "https://www.last.fm/music/Slow+Pulp",
-      "image": ""
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/14d491b5faef04850501393ee16f03f3.jpg"
     },
     {
       "name": "The Strokes",
-      "plays": 16,
+      "plays": 24,
       "url": "https://www.last.fm/music/The+Strokes",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/16fd442f799a4805853d44868f3673ab.jpg"
     },
     {
-      "name": "Pink Floyd",
-      "plays": 15,
-      "url": "https://www.last.fm/music/Pink+Floyd",
-      "image": ""
+      "name": "Her's",
+      "plays": 23,
+      "url": "https://www.last.fm/music/Her%27s",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/e01c5f2843015858c446269b0d151613.jpg"
+    },
+    {
+      "name": "Begum",
+      "plays": 21,
+      "url": "https://www.last.fm/music/Begum",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/6773ba58ea084d6521e86883ef06357e.jpg"
+    },
+    {
+      "name": "Elliott Smith",
+      "plays": 21,
+      "url": "https://www.last.fm/music/Elliott+Smith",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/100e063d82bd235773f50508a5305883.jpg"
     }
   ]
 }
