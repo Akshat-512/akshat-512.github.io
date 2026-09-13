@@ -1,0 +1,55 @@
+{
+  "user": "Z512",
+  "period": "1month",
+  "generated_at": "2026-09-13T04:52:57.869Z",
+  "artists": [
+    {
+      "name": "Dot.",
+      "plays": 148,
+      "url": "https://www.last.fm/music/Dot.",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/0fe03471aecd8db1f41a43334e916c76.jpg"
+    },
+    {
+      "name": "Fontaines D.C.",
+      "plays": 60,
+      "url": "https://www.last.fm/music/Fontaines+D.C.",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/bc9ed92f731b9ebd74166aacfe5442ae.jpg"
+    },
+    {
+      "name": "The Strokes",
+      "plays": 50,
+      "url": "https://www.last.fm/music/The+Strokes",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/16fd442f799a4805853d44868f3673ab.jpg"
+    },
+    {
+      "name": "Charli xcx",
+      "plays": 47,
+      "url": "https://www.last.fm/music/Charli+xcx",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/6eeba75536e7826ff66f1f50c7c45b1f.jpg"
+    },
+    {
+      "name": "American Football",
+      "plays": 40,
+      "url": "https://www.last.fm/music/American+Football",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/1554373170f43ad94d5742a52a038f91.jpg"
+    },
+    {
+      "name": "Beach House",
+      "plays": 36,
+      "url": "https://www.last.fm/music/Beach+House",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/e97092507e500b1d06cfc5a599f2dc85.jpg"
+    },
+    {
+      "name": "Clairo",
+      "plays": 29,
+      "url": "https://www.last.fm/music/Clairo",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/52377582df22cb29d4effc93de76369c.jpg"
+    },
+    {
+      "name": "Tame Impala",
+      "plays": 29,
+      "url": "https://www.last.fm/music/Tame+Impala",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/8fc10c456d2d9ff816d59dad3d6746b5.jpg"
+    }
+  ]
+}
