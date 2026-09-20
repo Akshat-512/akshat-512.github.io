@@ -1,0 +1,55 @@
+{
+  "user": "Z512",
+  "period": "1month",
+  "generated_at": "2026-09-20T04:57:41.873Z",
+  "artists": [
+    {
+      "name": "Dot.",
+      "plays": 156,
+      "url": "https://www.last.fm/music/Dot.",
+      "image": ""
+    },
+    {
+      "name": "Fontaines D.C.",
+      "plays": 70,
+      "url": "https://www.last.fm/music/Fontaines+D.C.",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/3bbb1a886aac5801856e11242185a07d.jpg"
+    },
+    {
+      "name": "The Strokes",
+      "plays": 58,
+      "url": "https://www.last.fm/music/The+Strokes",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/304587494c2a6243c74188aecf931891.jpg"
+    },
+    {
+      "name": "Slowdive",
+      "plays": 52,
+      "url": "https://www.last.fm/music/Slowdive",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/53a4098e06d065a39d577133373e7cf6.jpg"
+    },
+    {
+      "name": "Charli xcx",
+      "plays": 51,
+      "url": "https://www.last.fm/music/Charli+xcx",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/63208e39e6e72633e6362f98fd36b89c.jpg"
+    },
+    {
+      "name": "Beach House",
+      "plays": 49,
+      "url": "https://www.last.fm/music/Beach+House",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/c05cc1fdc2845091f3ab09f28f9528a5.jpg"
+    },
+    {
+      "name": "American Football",
+      "plays": 38,
+      "url": "https://www.last.fm/music/American+Football",
+      "image": ""
+    },
+    {
+      "name": "Tame Impala",
+      "plays": 36,
+      "url": "https://www.last.fm/music/Tame+Impala",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/99c8d71d1f5564863ee3d2da00e484a2.jpg"
+    }
+  ]
+}
