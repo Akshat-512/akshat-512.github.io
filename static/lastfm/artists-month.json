@@ -1,55 +1,55 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-09-27T05:22:35.054Z",
+  "generated_at": "2026-10-04T05:58:38.725Z",
   "artists": [
     {
       "name": "Beach House",
-      "plays": 129,
+      "plays": 136,
       "url": "https://www.last.fm/music/Beach+House",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/c05cc1fdc2845091f3ab09f28f9528a5.jpg"
+      "image": ""
     },
     {
       "name": "Dot.",
-      "plays": 112,
+      "plays": 91,
       "url": "https://www.last.fm/music/Dot.",
       "image": ""
     },
     {
-      "name": "Fontaines D.C.",
-      "plays": 71,
-      "url": "https://www.last.fm/music/Fontaines+D.C.",
-      "image": ""
-    },
-    {
-      "name": "The Strokes",
-      "plays": 67,
-      "url": "https://www.last.fm/music/The+Strokes",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/304587494c2a6243c74188aecf931891.jpg"
-    },
-    {
-      "name": "Slowdive",
-      "plays": 49,
-      "url": "https://www.last.fm/music/Slowdive",
-      "image": ""
-    },
-    {
       "name": "Type O Negative",
-      "plays": 46,
+      "plays": 80,
       "url": "https://www.last.fm/music/Type+O+Negative",
       "image": ""
     },
     {
-      "name": "American Football",
-      "plays": 44,
-      "url": "https://www.last.fm/music/American+Football",
-      "image": ""
+      "name": "The Strokes",
+      "plays": 79,
+      "url": "https://www.last.fm/music/The+Strokes",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/304587494c2a6243c74188aecf931891.jpg"
+    },
+    {
+      "name": "Fontaines D.C.",
+      "plays": 50,
+      "url": "https://www.last.fm/music/Fontaines+D.C.",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/4e695ee4a851cb8eed56c71273584eff.jpg"
+    },
+    {
+      "name": "The Apples in Stereo",
+      "plays": 50,
+      "url": "https://www.last.fm/music/The+Apples+in+Stereo",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/70636006c49247b2805b0c855e32250e.jpg"
+    },
+    {
+      "name": "Slowdive",
+      "plays": 43,
+      "url": "https://www.last.fm/music/Slowdive",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/53a4098e06d065a39d577133373e7cf6.jpg"
     },
     {
       "name": "Charli xcx",
-      "plays": 43,
+      "plays": 38,
       "url": "https://www.last.fm/music/Charli+xcx",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/63208e39e6e72633e6362f98fd36b89c.jpg"
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/8433e285ed8051906dc126eb2aff0b72.jpg"
     }
   ]
 }
