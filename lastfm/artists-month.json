@@ -1,0 +1,55 @@
+{
+  "user": "Z512",
+  "period": "1month",
+  "generated_at": "2026-10-04T05:58:38.725Z",
+  "artists": [
+    {
+      "name": "Beach House",
+      "plays": 136,
+      "url": "https://www.last.fm/music/Beach+House",
+      "image": ""
+    },
+    {
+      "name": "Dot.",
+      "plays": 91,
+      "url": "https://www.last.fm/music/Dot.",
+      "image": ""
+    },
+    {
+      "name": "Type O Negative",
+      "plays": 80,
+      "url": "https://www.last.fm/music/Type+O+Negative",
+      "image": ""
+    },
+    {
+      "name": "The Strokes",
+      "plays": 79,
+      "url": "https://www.last.fm/music/The+Strokes",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/304587494c2a6243c74188aecf931891.jpg"
+    },
+    {
+      "name": "Fontaines D.C.",
+      "plays": 50,
+      "url": "https://www.last.fm/music/Fontaines+D.C.",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/4e695ee4a851cb8eed56c71273584eff.jpg"
+    },
+    {
+      "name": "The Apples in Stereo",
+      "plays": 50,
+      "url": "https://www.last.fm/music/The+Apples+in+Stereo",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/70636006c49247b2805b0c855e32250e.jpg"
+    },
+    {
+      "name": "Slowdive",
+      "plays": 43,
+      "url": "https://www.last.fm/music/Slowdive",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/53a4098e06d065a39d577133373e7cf6.jpg"
+    },
+    {
+      "name": "Charli xcx",
+      "plays": 38,
+      "url": "https://www.last.fm/music/Charli+xcx",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/8433e285ed8051906dc126eb2aff0b72.jpg"
+    }
+  ]
+}
