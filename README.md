@@ -48,3 +48,9 @@ Publish from phone (simple UI):
 3. Tap `Open GitHub Issue`, sign in, and submit.
 
 Only issues opened by the repository owner are auto-published. The workflow creates the post file, commits it, pushes to `main`, comments with the URL, and closes the issue.
+
+Deployment:
+- In GitHub repository Settings → Pages, set Source to **GitHub Actions**.
+- The Deploy GitHub Pages workflow builds with Zola 0.22.1, verifies `public/index.html`, and publishes only `public/`.
+- Pushes to `main` and successful issue-publishing or Last.fm-update workflows deploy the latest site. You can also run it manually from Actions.
+- For a local build, use Zola 0.22.1 and run `zola build`.

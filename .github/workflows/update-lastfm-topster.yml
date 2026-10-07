@@ -38,10 +38,3 @@ jobs:
           git commit -m "Update Last.fm topster"
           echo "changed=true" >> "$GITHUB_OUTPUT"
           git push
-
-      - name: Build and deploy updated site
-        if: steps.commit.outputs.changed == 'true'
-        uses: shalzz/zola-deploy-action@v0.17.2
-        env:
-          PAGES_BRANCH: gh-pages
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
