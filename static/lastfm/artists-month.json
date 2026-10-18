@@ -1,31 +1,31 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-10-11T05:52:22.266Z",
+  "generated_at": "2026-10-18T04:39:17.358Z",
   "artists": [
     {
       "name": "Beach House",
-      "plays": 168,
+      "plays": 169,
       "url": "https://www.last.fm/music/Beach+House",
       "image": ""
     },
     {
       "name": "Type O Negative",
-      "plays": 88,
+      "plays": 74,
       "url": "https://www.last.fm/music/Type+O+Negative",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/46c915dbd705d11121ce507319592d18.jpg"
     },
     {
-      "name": "The Strokes",
-      "plays": 84,
-      "url": "https://www.last.fm/music/The+Strokes",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/16fd442f799a4805853d44868f3673ab.jpg"
+      "name": "Green Day",
+      "plays": 64,
+      "url": "https://www.last.fm/music/Green+Day",
+      "image": ""
     },
     {
-      "name": "Dot.",
-      "plays": 53,
-      "url": "https://www.last.fm/music/Dot.",
-      "image": ""
+      "name": "The Strokes",
+      "plays": 60,
+      "url": "https://www.last.fm/music/The+Strokes",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/16fd442f799a4805853d44868f3673ab.jpg"
     },
     {
       "name": "The Apples in Stereo",
@@ -34,22 +34,22 @@
       "image": ""
     },
     {
-      "name": "Slowdive",
-      "plays": 43,
-      "url": "https://www.last.fm/music/Slowdive",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/53a4098e06d065a39d577133373e7cf6.jpg"
+      "name": "Hayley Williams",
+      "plays": 44,
+      "url": "https://www.last.fm/music/Hayley+Williams",
+      "image": ""
     },
     {
       "name": "Have a Nice Life",
-      "plays": 37,
+      "plays": 32,
       "url": "https://www.last.fm/music/Have+a+Nice+Life",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/8ef6af414897da3656f8fabfd8fc71a4.jpg"
+      "image": ""
     },
     {
-      "name": "Hayley Williams",
-      "plays": 36,
-      "url": "https://www.last.fm/music/Hayley+Williams",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/6e020172d8964d381871321b7cb2a9dd.jpg"
+      "name": "JPEGMAFIA",
+      "plays": 30,
+      "url": "https://www.last.fm/music/JPEGMAFIA",
+      "image": ""
     }
   ]
 }
