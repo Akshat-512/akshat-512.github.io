@@ -1,31 +1,25 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-10-18T04:39:17.358Z",
+  "generated_at": "2026-10-25T04:47:38.799Z",
   "artists": [
     {
       "name": "Beach House",
-      "plays": 169,
+      "plays": 154,
       "url": "https://www.last.fm/music/Beach+House",
       "image": ""
-    },
-    {
-      "name": "Type O Negative",
-      "plays": 74,
-      "url": "https://www.last.fm/music/Type+O+Negative",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/46c915dbd705d11121ce507319592d18.jpg"
     },
     {
       "name": "Green Day",
       "plays": 64,
       "url": "https://www.last.fm/music/Green+Day",
-      "image": ""
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/d3b70e8f10224e5308913683b85b21e0.jpg"
     },
     {
-      "name": "The Strokes",
+      "name": "Type O Negative",
       "plays": 60,
-      "url": "https://www.last.fm/music/The+Strokes",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/16fd442f799a4805853d44868f3673ab.jpg"
+      "url": "https://www.last.fm/music/Type+O+Negative",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/46c915dbd705d11121ce507319592d18.jpg"
     },
     {
       "name": "The Apples in Stereo",
@@ -34,21 +28,27 @@
       "image": ""
     },
     {
-      "name": "Hayley Williams",
-      "plays": 44,
-      "url": "https://www.last.fm/music/Hayley+Williams",
-      "image": ""
-    },
-    {
-      "name": "Have a Nice Life",
-      "plays": 32,
-      "url": "https://www.last.fm/music/Have+a+Nice+Life",
-      "image": ""
+      "name": "The Strokes",
+      "plays": 48,
+      "url": "https://www.last.fm/music/The+Strokes",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/16fd442f799a4805853d44868f3673ab.jpg"
     },
     {
       "name": "JPEGMAFIA",
-      "plays": 30,
+      "plays": 47,
       "url": "https://www.last.fm/music/JPEGMAFIA",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/50f59b1662e460d9670dec931eb56e21.jpg"
+    },
+    {
+      "name": "Hayley Williams",
+      "plays": 44,
+      "url": "https://www.last.fm/music/Hayley+Williams",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/c06704274f6f8b83be8e58d4adb3c8f4.jpg"
+    },
+    {
+      "name": "Have a Nice Life",
+      "plays": 30,
+      "url": "https://www.last.fm/music/Have+a+Nice+Life",
       "image": ""
     }
   ]
