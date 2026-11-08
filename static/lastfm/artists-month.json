@@ -1,55 +1,55 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-11-01T06:13:46.643Z",
+  "generated_at": "2026-11-08T06:07:56.530Z",
   "artists": [
     {
+      "name": "fakemink",
+      "plays": 64,
+      "url": "https://www.last.fm/music/fakemink",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/da1a446a920d4845d6a593d0da62dbed.jpg"
+    },
+    {
       "name": "Beach House",
-      "plays": 99,
+      "plays": 62,
       "url": "https://www.last.fm/music/Beach+House",
       "image": ""
     },
     {
       "name": "Green Day",
-      "plays": 64,
+      "plays": 47,
       "url": "https://www.last.fm/music/Green+Day",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/573b9fb2e1fe4720959418fb9693db84.jpg"
+    },
+    {
+      "name": "Elliott Smith",
+      "plays": 46,
+      "url": "https://www.last.fm/music/Elliott+Smith",
       "image": ""
     },
     {
-      "name": "fakemink",
-      "plays": 61,
-      "url": "https://www.last.fm/music/fakemink",
-      "image": ""
+      "name": "Slowdive",
+      "plays": 38,
+      "url": "https://www.last.fm/music/Slowdive",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/53a4098e06d065a39d577133373e7cf6.jpg"
     },
     {
       "name": "Sun Kil Moon",
       "plays": 38,
       "url": "https://www.last.fm/music/Sun+Kil+Moon",
-      "image": ""
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/227ebfaf2a8f49c4a31f6c84aebde289.jpg"
     },
     {
-      "name": "JPEGMAFIA",
-      "plays": 37,
-      "url": "https://www.last.fm/music/JPEGMAFIA",
-      "image": ""
-    },
-    {
-      "name": "Nirvana",
+      "name": "Death Cab for Cutie",
       "plays": 36,
-      "url": "https://www.last.fm/music/Nirvana",
-      "image": ""
+      "url": "https://www.last.fm/music/Death+Cab+for+Cutie",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/30df0495d00c459893cec7b5d01505f6.jpg"
     },
     {
       "name": "Have a Nice Life",
       "plays": 35,
       "url": "https://www.last.fm/music/Have+a+Nice+Life",
-      "image": ""
-    },
-    {
-      "name": "The Strokes",
-      "plays": 35,
-      "url": "https://www.last.fm/music/The+Strokes",
-      "image": ""
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/8ef6af414897da3656f8fabfd8fc71a4.jpg"
     }
   ]
 }
