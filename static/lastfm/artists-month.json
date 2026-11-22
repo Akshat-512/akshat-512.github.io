@@ -1,53 +1,53 @@
 {
   "user": "Z512",
   "period": "1month",
-  "generated_at": "2026-11-15T06:40:13.137Z",
+  "generated_at": "2026-11-22T06:56:06.236Z",
   "artists": [
     {
       "name": "fakemink",
       "plays": 69,
       "url": "https://www.last.fm/music/fakemink",
-      "image": ""
-    },
-    {
-      "name": "Elliott Smith",
-      "plays": 47,
-      "url": "https://www.last.fm/music/Elliott+Smith",
-      "image": ""
-    },
-    {
-      "name": "Sun Kil Moon",
-      "plays": 42,
-      "url": "https://www.last.fm/music/Sun+Kil+Moon",
-      "image": ""
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/da1a446a920d4845d6a593d0da62dbed.jpg"
     },
     {
       "name": "Death Cab for Cutie",
-      "plays": 39,
+      "plays": 68,
       "url": "https://www.last.fm/music/Death+Cab+for+Cutie",
       "image": ""
     },
     {
+      "name": "Olivia Rodrigo",
+      "plays": 63,
+      "url": "https://www.last.fm/music/Olivia+Rodrigo",
+      "image": ""
+    },
+    {
+      "name": "Elliott Smith",
+      "plays": 52,
+      "url": "https://www.last.fm/music/Elliott+Smith",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/ar0/a76b6e8cb24930e8c7f8d7e8872a32fb.jpg"
+    },
+    {
+      "name": "Nirvana",
+      "plays": 52,
+      "url": "https://www.last.fm/music/Nirvana",
+      "image": ""
+    },
+    {
+      "name": "Sun Kil Moon",
+      "plays": 45,
+      "url": "https://www.last.fm/music/Sun+Kil+Moon",
+      "image": ""
+    },
+    {
       "name": "Beach House",
-      "plays": 37,
+      "plays": 42,
       "url": "https://www.last.fm/music/Beach+House",
       "image": ""
     },
     {
-      "name": "ZAYN",
-      "plays": 32,
-      "url": "https://www.last.fm/music/ZAYN",
-      "image": ""
-    },
-    {
-      "name": "Creed",
-      "plays": 30,
-      "url": "https://www.last.fm/music/Creed",
-      "image": ""
-    },
-    {
       "name": "Dean Blunt",
-      "plays": 28,
+      "plays": 33,
       "url": "https://www.last.fm/music/Dean+Blunt",
       "image": ""
     }
